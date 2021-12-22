@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.animation-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation-logo {
+  width: 13%;
+  height: auto;
+  margin-bottom: 3%;
+}
+
+.animation-searchbar {
+  width: 50%;
+  outline: 1px solid #b4b4b4;
+  padding: 1em 1.5em;
+  border-radius: 5vw;
+  display: flex;
+  align-items: center;
+  color: #b4b4b4;
+}
+
+/* TYPING ANIMATION */
+.animation-typing {
+  font-weight: normal;
+  overflow: hidden;
+  border-right: 0.15em solid #e89897;
+  font-size: 18px;
+  white-space: nowrap; /*ensures text doesn't wrap to the next line*/
+  width: 0;
+  animation: typing 1s steps(10, end) forwards, blink 0.8s infinite;
+}
+
+.animation-typing-container {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #e89897;
+  }
+}

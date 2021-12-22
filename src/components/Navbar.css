@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar-container {
+  width: 100vw;
+  height: 20vh;
+  border-bottom: 1px solid #b4b4b4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-top-row {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.navbar-logo {
+  width: 5%;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.navbar-searchbar {
+  width: 40%;
+  padding: 0.4rem;
+  outline: 1px solid #b4b4b4;
+  border-radius: 5vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  color: #b4b4b4;
+}
+
+.navbar-bottom-row {
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.navbar-all,
+.navbar-projects {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 0.3rem;
+  cursor: pointer;
+}
+
+.navbar-all p,
+.navbar-projects p {
+  margin-left: 0.4rem;
+  font-size: 12px;
+}
+
+.navbar-projects {
+  margin-left: 3.5rem;
+}
+
+#active {
+  border-bottom: 4px solid #e89897;
+}
