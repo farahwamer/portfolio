@@ -4,7 +4,7 @@ import logo from "./img/logo.svg";
 import { AiOutlineSearch, AiOutlineProject } from "react-icons/ai";
 
 const Navbar = (props) => {
-  var activePage = props.page;
+  const activeStyle = { borderBottom: "4px solid #e89897" };
   return (
     <div className="navbar-container">
       <section className="navbar-top-row">
@@ -16,14 +16,18 @@ const Navbar = (props) => {
       <section className="navbar-bottom-row">
         <div
           className="navbar-all"
-          id={activePage === "Home" ? "active" : null}
+          style={props.page === "Home" ? activeStyle : { borderBottom: "none" }}
+          onClick={() => props.setPage("Home")}
         >
           <AiOutlineSearch size={15} />
           <p>All</p>
         </div>
         <div
           className="navbar-projects"
-          id={activePage === "Projects" ? "active" : null}
+          style={
+            props.page === "Projects" ? activeStyle : { borderBottom: "none" }
+          }
+          onClick={() => props.setPage("Projects")}
         >
           <AiOutlineProject size={15} />
           <p>Projects</p>

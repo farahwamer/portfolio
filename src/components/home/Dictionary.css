@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dictionary-container {
+  width: 100vw;
+  padding: 1rem 4rem;
+  color: #3f3d3d;
+  transition: all 0.2s linear;
+  overflow: hidden;
+}
+
+.dictionary-container h1 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.dictionary-row-one {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dictionary-row-one h2 {
+  font-size: 1.7rem;
+  margin-left: 1.5rem;
+}
+
+.voice-button {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #e08f8e;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9f9f9;
+}
+
+#pronounciation {
+  margin-left: 3rem;
+  color: #656161;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.dictionary-header {
+  color: #656161;
+  font-weight: 300px;
+  margin-top: 1.5rem;
+}
+
+.dictionary-ol {
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 40%;
+}
+
+.dictionary-ol li {
+  padding-left: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.dictionary-row-two {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dictionary-row-two p {
+  font-size: 0.8rem;
+  color: #858585;
+  margin: 0 1.2rem;
+}
+
+.synonyms-container {
+  display: flex;
+  color: #3f3d3d;
+  font-size: 0.6rem;
+}
+
+.synonym {
+  outline: 1px solid #e89897;
+  padding: 0.2rem 0.6rem;
+  border-radius: 15px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.synonym:hover {
+  background-color: #e89897;
+  color: #f9f9f9;
+}
+
+.dictionary-barrier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-top: 1rem;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.show-btn {
+  outline: 0.2px solid #858585;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.show-btn i {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.show-btn:hover {
+  background: #f3f1f1;
+}
+
+.dictionary-barrier hr {
+  width: 100%;
+  height: 0.2px;
+  outline: none;
+  border: none;
+  background: #858585;
+}
+
+.skills-container {
+  margin-top: 2rem;
+  width: 45%;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s linear, opacity 0.2s linear;
+}
+
+.skills-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: 0.02px solid #a2a2a2;
+  width: 6.5vw;
+  height: 6vw;
+  margin: 1rem;
+  border-radius: 0.42vw;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.skill p {
+  display: none;
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.skill img {
+  width: 2.5vw;
+  height: auto;
+}
+
+#figma {
+  width: 2vw;
+}
+
+#java {
+  margin-bottom: 0.3rem;
+}
