@@ -17,6 +17,9 @@ import react from "../../assets/react.png";
 
 const Dictionary = () => {
   const [moreShown, setMoreShown] = useState(false);
+  let pronounciationAudio = new Audio("/assets/pronounciation.mp3");
+
+  const playSound = () => pronounciationAudio.play();
 
   if (moreShown) {
     window.scrollTo({
@@ -29,7 +32,7 @@ const Dictionary = () => {
     <div className="dictionary-container">
       <h1>Dictionary</h1>
       <section className="dictionary-row-one">
-        <div className="voice-button">
+        <div className="voice-button" onClick={playSound}>
           <AiFillSound />
         </div>
 

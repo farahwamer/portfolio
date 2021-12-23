@@ -38,6 +38,12 @@
   justify-content: center;
   align-items: center;
   color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.voice-button:hover {
+  background-color: #d6908f;
 }
 
 #pronounciation {
