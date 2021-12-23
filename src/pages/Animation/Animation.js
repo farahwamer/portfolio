@@ -1,5 +1,5 @@
 import { React } from "react";
-import logo from "./img/logo.svg";
+import logo from "../../assets/logo.svg";
 import "./Animation.css";
 import { AiOutlineSearch } from "react-icons/ai";
 

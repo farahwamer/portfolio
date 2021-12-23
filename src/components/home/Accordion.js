@@ -3,7 +3,7 @@ import "./Accordion.css";
 import { FiChevronUp, FiChevronDown } from "react-icons/fi";
 
 const Accordion = () => {
-  const openStyle = { opacity: "1", maxHeight: "500px" };
+  const openStyle = { opacity: "1", maxHeight: "300px" };
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);

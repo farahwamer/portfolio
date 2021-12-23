@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "./img/logo.svg";
+import logo from "../assets/logo.svg";
 import { AiOutlineSearch, AiOutlineProject } from "react-icons/ai";
 
 const Navbar = (props) => {
