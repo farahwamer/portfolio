@@ -60,7 +60,7 @@ const Dictionary = () => {
         className="skills-container"
         style={
           moreShown
-            ? { maxHeight: "400px", opacity: "1" }
+            ? { maxHeight: "500px", opacity: "1" }
             : { maxHeight: "0", opacity: "0" }
         }
         id="skills-container"

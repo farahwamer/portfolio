@@ -4,7 +4,7 @@ import logo from "./img/logo.svg";
 import { AiOutlineSearch, AiOutlineProject } from "react-icons/ai";
 
 const Navbar = (props) => {
-  const activeStyle = { borderBottom: "4px solid #e89897" };
+  const activeStyle = { borderBottom: "4px solid #e89897", color: "#e89897" };
   return (
     <div className="navbar-container">
       <section className="navbar-top-row">

@@ -6,10 +6,11 @@
 
 .dictionary-container {
   width: 100vw;
-  padding: 1rem 4rem;
+  height: auto;
   color: #3f3d3d;
   transition: all 0.2s linear;
   overflow: hidden;
+  padding-bottom: 1rem;
 }
 
 .dictionary-container h1 {
