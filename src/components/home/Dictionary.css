@@ -43,7 +43,7 @@
 }
 
 .voice-button:hover {
-  background-color: #d6908f;
+  background-color: #e2a7a6;
 }
 
 #pronounciation {
@@ -95,13 +95,7 @@
   padding: 0.2rem 0.6rem;
   border-radius: 15px;
   margin: 0 0.5rem;
-  cursor: pointer;
   transition: all 0.2s linear;
-}
-
-.synonym:hover {
-  background-color: #e89897;
-  color: #f9f9f9;
 }
 
 .dictionary-barrier {
@@ -142,7 +136,7 @@ input[type="reset"] {
 }
 
 .show-btn:hover {
-  background: #f3f1f1;
+  background: #f3f3f3;
 }
 
 .dictionary-barrier hr {
