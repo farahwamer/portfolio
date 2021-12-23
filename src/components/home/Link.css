@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.link-container {
+  margin-top: 3rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-url {
+  color: #4d4a4a;
+  font-size: 0.7rem;
+  font-weight: 400px;
+}
+
+.link-link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #dd8886;
+  transition: text-decoration 0.3s linear;
+}
+
+.link-link:hover {
+  text-decoration: underline;
+}
+
+.link-text {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #737272;
+  margin-top: 0.2rem;
+}
