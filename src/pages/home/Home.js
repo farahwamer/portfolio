@@ -21,7 +21,7 @@ const Home = () => {
     {
       url: "https://github.com > farahwamer",
       title: "Github | @farahwamer",
-      text: "farahwamer has 3 repositories available. Follow their code on Github.",
+      text: "farahwamer has 4 repositories available. Follow their code on Github.",
       link: "https://github.com/farahwamer",
     },
     {

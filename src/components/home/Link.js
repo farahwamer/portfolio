@@ -6,7 +6,12 @@ const Link = (props) => {
   return (
     <div className="link-container">
       <p className="link-url">{props.url}</p>
-      <a href={props.link} target="_blank" className="link-link">
+      <a
+        href={props.link}
+        target="_blank"
+        rel="noreferrer"
+        className="link-link"
+      >
         {props.title}
       </a>
       <p className="link-text">{props.text}</p>
