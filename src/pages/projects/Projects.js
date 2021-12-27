@@ -16,13 +16,15 @@ const Projects = () => {
         title="Desktop Notes"
         text=" take notes on a desktop simulator"
         url="https://affectionate-pasteur-831865.netlify.app/"
+        small={false}
       />
       <Project
         src={marketing}
         alt="Business Page"
         title="Business Page"
-        text="Wamer’s Marketing Consultancy"
+        text="Marketing Consultancy"
         url="https://github.com/farahwamer/wamers-marketing-consultancy"
+        small={true}
       />
       <Project
         src={portfolio}
@@ -30,6 +32,7 @@ const Projects = () => {
         title="Portfolio Website"
         text="search-engine themed!"
         url="https://github.com/farahwamer/wamers-marketing-consultancy"
+        small={true}
       />
       <Project
         src={jobApps}
@@ -37,6 +40,7 @@ const Projects = () => {
         title="Job application portal"
         text="Albatros Elite Club"
         url="https://www.albatroseliteclub.com/#/careers"
+        small={false}
       />
       <Project
         src={scorpion}
@@ -44,6 +48,7 @@ const Projects = () => {
         title="Scorpion"
         text="simple bug-tracker for personal projects"
         url="coming soon!"
+        small={false}
       />
     </div>
   );

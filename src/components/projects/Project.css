@@ -4,50 +4,56 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
 }
-
 .project-container {
-  min-width: 100px;
-  margin-bottom: 2rem;
-  word-wrap: break-word;
+  display: table;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
 }
 
 .project-img {
-  height: 30vh;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 40vh;
+  cursor: pointer;
+  transition: all 0.1s linear;
 }
 
-.project-tag-container {
+.project-img:hover {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.project-caption-container {
+  display: table-caption;
+  caption-side: bottom;
+  margin: 0;
+  cursor: pointer;
+}
+
+.project-caption-container:hover {
+  text-decoration: underline;
 }
 
 .project-tag {
   font-size: 0.8rem;
-  font-weight: normal;
   color: #3f3d3d;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  max-width: inherit;
-  overflow: hidden;
-}
-
-.project-tag mark {
-  background-color: transparent;
-  font-weight: bolder;
 }
 
 .project-url {
-  color: #6c6a6a;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  max-width: inherit;
-  overflow: hidden;
-}
-figure {
-  display: table;
+  display: block;
+  text-decoration: none;
 }
 
-figcaption {
-  display: table-caption;
-  caption-side: bottom;
+.project-tag,
+.project-url {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+#small {
+  width: 35vh;
+}
+.project-caption-container a {
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: #6c6a6a;
 }

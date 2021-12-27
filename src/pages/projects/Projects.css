@@ -9,7 +9,8 @@
   width: 100vw;
   /* height: 200vh; */
   padding: 3rem 2rem;
-  /* display: flex; */
-
+  display: flex;
   flex-wrap: wrap;
+  overflow: scroll;
+  /* align-content: space-around; */
 }
