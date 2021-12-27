@@ -12,6 +12,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* should we keep it sticky? */
+  /* position: sticky;
+  top: 0; */
+  background-color: #f9f9f9;
 }
 
 .navbar-top-row {

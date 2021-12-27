@@ -5,12 +5,16 @@
   font-family: "Nunito", sans-serif;
 }
 
+.projects-page-container {
+  display: flex;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
 .projects-container {
-  width: 100vw;
-  /* height: 200vh; */
-  padding: 3rem 2rem;
+  padding: 3rem 1rem;
   display: flex;
   flex-wrap: wrap;
   overflow: scroll;
-  /* align-content: space-around; */
+  flex-shrink: 30;
 }
