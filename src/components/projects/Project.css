@@ -11,10 +11,11 @@
   margin-right: 3rem;
   /* flex-shrink: 1;
   flex-grow: 1; */
+  transition: all 0.3s linear;
 }
 
 .project-img {
-  height: 45vh;
+  height: 39vh;
   cursor: pointer;
   transition: all 0.1s linear;
 }
@@ -34,11 +35,6 @@
   text-decoration: underline;
 }
 
-.project-tag {
-  font-size: 0.8rem;
-  color: #3f3d3d;
-}
-
 .project-url {
   display: block;
   text-decoration: none;
@@ -54,7 +50,7 @@
 }
 
 #small {
-  width: 25vh;
+  width: 35vh;
 }
 .project-caption-container a {
   font-size: 0.7rem;
@@ -62,9 +58,7 @@
   color: #6c6a6a;
 }
 
-.test {
-  width: 30vw;
-  height: 80vh;
-  background: #313131;
-  align-self: stretch;
+.project-tag {
+  font-size: 0.8rem;
+  color: #3f3d3d;
 }

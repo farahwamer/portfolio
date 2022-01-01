@@ -8,7 +8,16 @@ const Project = (projectInfo) => {
     <figure
       className="project-container"
       onClick={() => {
-        projectInfo.onClick(true);
+        projectInfo.openFunc(true);
+        projectInfo.setActiveProject({
+          img: projectInfo.src,
+          title: projectInfo.title,
+          link: projectInfo.url,
+          description: projectInfo.description,
+          stack: projectInfo.stack,
+          relatedImages: projectInfo.relatedImages,
+          sourceCode: projectInfo.sourceCode,
+        });
       }}
     >
       <img
