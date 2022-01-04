@@ -6,7 +6,7 @@
 
 .accordion-container {
   color: #949191;
-  width: 58%;
+  width: 60%;
   margin-top: 3rem;
 }
 .accordion-container h1 {
@@ -46,4 +46,43 @@
 .answer {
   font-weight: 300;
   font-size: 0.87rem;
+}
+
+@media screen and (max-width: 870px) {
+  .accordion-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .accordion-container {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .accordion-container h1 {
+    font-size: 1rem;
+  }
+
+  .question,
+  .answer {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .accordion-container {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .accordion-container h1 {
+    font-size: 0.8rem;
+  }
+
+  .question,
+  .answer {
+    font-size: 0.6rem;
+  }
 }
