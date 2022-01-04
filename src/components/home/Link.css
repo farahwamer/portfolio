@@ -36,3 +36,47 @@
   color: #737272;
   margin-top: 0.2rem;
 }
+
+@media screen and (max-width: 870px) {
+  .link-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .link-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .link-container {
+    margin-top: 2rem;
+  }
+  .link-url {
+    font-size: 0.6rem;
+  }
+  .link-link {
+    font-size: 1rem;
+  }
+
+  .link-text {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .link-container {
+    margin-top: 1rem;
+  }
+  .link-url {
+    font-size: 0.4rem;
+  }
+  .link-link {
+    font-size: 0.7rem;
+  }
+
+  .link-text {
+    font-size: 0.5rem;
+  }
+}
