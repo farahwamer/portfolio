@@ -10,3 +10,9 @@
   /* height: 200vh; */
   padding: 4rem 5rem;
 }
+
+@media screen and (max-width: 500px) {
+  .home-container {
+    padding: 3rem 2rem;
+  }
+}
