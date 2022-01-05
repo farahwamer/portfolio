@@ -10,7 +10,7 @@ const Navbar = (props) => {
       <section className="navbar-top-row">
         <img src={logo} alt="logo" className="navbar-logo" />
         <div className="navbar-searchbar">
-          <AiOutlineSearch size={20} />
+          <AiOutlineSearch size={15} />
         </div>
       </section>
       <section className="navbar-bottom-row">

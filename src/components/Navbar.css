@@ -69,3 +69,38 @@
 #active {
   border-bottom: 4px solid #e89897;
 }
+
+@media screen and (max-width: 870px) {
+  .navbar-searchbar {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .navbar-searchbar {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-searchbar {
+    width: 70%;
+  }
+  .navbar-logo {
+    width: 10%;
+  }
+
+  .navbar-all,
+  .navbar-projects {
+    padding: 0.5rem 0.1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar-searchbar {
+    width: 80%;
+  }
+  .navbar-logo {
+    width: 20%;
+  }
+}
