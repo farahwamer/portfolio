@@ -14,6 +14,7 @@ import javascript from "../../assets/javascript.png";
 import node from "../../assets/node.png";
 import python from "../../assets/python.png";
 import react from "../../assets/react.png";
+import angular from "../../assets/angular.png"
 
 const Dictionary = () => {
   const [moreShown, setMoreShown] = useState(false);
@@ -81,6 +82,9 @@ const Dictionary = () => {
           </div>
           <div className="skill">
             <img src={react} alt="React logo" />
+          </div>
+          <div className="skill">
+            <img src={angular} alt="Angular logo" />
           </div>
           <div className="skill">
             <img src={node} alt="Node.js logo" />
