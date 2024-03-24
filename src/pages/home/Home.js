@@ -7,10 +7,16 @@ import Link from "../../components/home/Link.js";
 const Home = () => {
   const linkInfo = [
     {
-      url: "file:///Users/farahamer/Documents/resume.pdf",
-      title: "Resume",
+      url: "file:///Users/me/Documents/resume.pdf",
+      title: "Pretty Resume",
       text: "Check out Farah’s qualifications and work experience!",
       link: "/assets/Farah-Amer-Resume.pdf",
+    },
+    {
+      url: "file:///Users/me/Documents/resume-latex.pdf",
+      title: "Professional Resume",
+      text: "Check out Farah’s qualifications and work experience!",
+      link: "/assets/Farah-Amer-Resume-Latex.pdf",
     },
     {
       url: "https://www.linkedin.com > farah-amer",

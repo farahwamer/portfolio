@@ -7,14 +7,18 @@ import Projects from "./pages/projects/Projects";
 
 function App() {
   const [page, setPage] = useState("Home");
-  return (
-    <div className="App">
-      <Navbar page={page} setPage={setPage} />
-      {page === "Home" ? <Home /> : null}
-      {page === "Projects" ? <Projects /> : null}
-      <Animation />
-    </div>
-  );
+  const [show, setShow] = useState(false);
+  if (show) {
+    return (
+      <div className="App">
+        <Navbar page={page} setPage={setPage} />
+        {page === "Home" ? <Home /> : null}
+        {page === "Projects" ? <Projects /> : null}
+      </div>
+    );
+  } else {
+    return <Animation onEnd={setShow} />;
+  }
 }
 
 export default App;
