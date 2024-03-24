@@ -5,13 +5,29 @@
   font-family: "Nunito", sans-serif;
 }
 
-.animation-container {
+.animation-container,
+.search-container,
+.loader-container {
   display: flex;
   width: 100vw;
   height: 100vh;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #e89897;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
 }
 
 .animation-logo {
@@ -28,6 +44,10 @@
   display: flex;
   align-items: center;
   color: #b4b4b4;
+}
+
+#hide {
+  visibility: hidden;
 }
 
 /* TYPING ANIMATION */
@@ -61,5 +81,14 @@
   }
   to {
     border-color: #e89897;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

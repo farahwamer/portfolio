@@ -1,14 +1,9 @@
 import { React, useState } from "react";
 import "./Projects.css";
 import Project from "../../components/projects/Project";
-// import desktopNotes from "../../assets/desktopNotes.png";
-// import marketing from "../../assets/marketingConsultancy.png";
-// import portfolio from "../../assets/portfolio.svg";
-// import jobApps from "../../assets/jobApps.png";
-// import scorpion from "../../assets/scorpion.png";
 import Sidebar from "../../components/projects/Sidebar";
 
-import { projectList } from "../../assets/projectInfo";
+import { projectList } from "../../data/projectInfo";
 
 const Projects = () => {
   const [isOpen, setIsOpen] = useState(false);

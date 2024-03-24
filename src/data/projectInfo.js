@@ -1,19 +1,21 @@
-import desktopNotes from "./desktopNotes.png";
-import marketing from "./marketingConsultancy.png";
-import portfolio from "./portfolio.svg";
-import scorpion from "./scorpion.png";
-import figma from "./figma.png";
-import react from "./react.png";
-import git from "./git.png";
-import redux from "./redux.png";
-import node from "./node.png";
-import express from "./express.png";
-import sql from "./sql.png";
+import desktopNotes from "../assets/desktopNotes.png";
+import marketing from "../assets/marketingConsultancy.png";
+import portfolio from "../assets/portfolio.svg";
+import scorpion from "../assets/scorpion.png";
+import figma from "../assets/figma.png";
+import react from "../assets/react.png";
+import git from "../assets/git.png";
+import redux from "../assets/redux.png";
+import node from "../assets/node.png";
+import express from "../assets/express.png";
+import sql from "../assets/sql.png";
+import python from "../assets/python.png";
 
-import desktopNotes1 from "./desktopNotes1.png";
-import desktopNotes2 from "./desktopNotes2.png";
-import marketingConsultancy1 from "./marketingConsultancy1.png";
-import marketingConsultancy2 from "./marketingConsultancy2.png";
+import desktopNotes1 from "../assets/desktopNotes1.png";
+import desktopNotes2 from "../assets/desktopNotes2.png";
+import marketingConsultancy1 from "../assets/marketingConsultancy1.png";
+import marketingConsultancy2 from "../assets/marketingConsultancy2.png";
+import psychClinic from "../assets/psychClinic.png";
 
 export const projectList = [
   {
@@ -27,6 +29,18 @@ export const projectList = [
     description: "Search-engine themed interactive portfolio website.",
     relatedImages: [],
     sourceCode: "https://github.com/farahwamer/portfolio",
+  },
+  {
+    src: psychClinic,
+    alt: "Database Application for Psychology Clinic",
+    title: "Database Application",
+    text: "Inventory Management and Reservation System",
+    small: false,
+    stack: [react, python, sql, git, figma],
+    description:
+      "Allows administration to keep track of inventory and clients to reserve items from the clinic's library of testing kits.",
+    relatedImages: [],
+    sourceCode: "https://github.com/queens-psyc-clinic/app",
   },
   {
     src: desktopNotes,
