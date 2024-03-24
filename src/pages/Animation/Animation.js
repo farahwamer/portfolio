@@ -3,7 +3,7 @@ import logo from "../../assets/logo.svg";
 import "./Animation.css";
 import { AiOutlineSearch } from "react-icons/ai";
 
-const Animation = () => {
+const Animation = (props) => {
   const [show, setShow] = useState(true);
   const [showLoader, setShowLoader] = useState(false);
   const hide = () => {
@@ -13,6 +13,7 @@ const Animation = () => {
 
     setTimeout(() => {
       setShow(false);
+      props.onEnd(true);
     }, 1500);
   };
   return (
