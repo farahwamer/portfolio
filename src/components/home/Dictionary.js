@@ -2,19 +2,8 @@ import { React, useState } from "react";
 import { AiFillSound } from "react-icons/ai";
 import { BsChevronUp, BsChevronDown } from "react-icons/bs";
 import "./Dictionary.css";
-import bash from "../../assets/bash.png";
-import c from "../../assets/c.png";
-import CSS from "../../assets/CSS.png";
-import express from "../../assets/express.png";
-import figma from "../../assets/figma.png";
-import git from "../../assets/git.png";
-import HTML from "../../assets/HTML.png";
-import java from "../../assets/java.png";
-import javascript from "../../assets/javascript.png";
-import node from "../../assets/node.png";
-import python from "../../assets/python.png";
-import react from "../../assets/react.png";
-import angular from "../../assets/angular.png"
+import { skills } from "../../data/skills";
+import Skill from "./Skill";
 
 const Dictionary = () => {
   const [moreShown, setMoreShown] = useState(false);
@@ -71,45 +60,9 @@ const Dictionary = () => {
       >
         <p className="dictionary-header">Skills</p>
         <div className="skills-icons-container">
-          <div className="skill">
-            <img src={HTML} alt="HTML logo" />
-          </div>
-          <div className="skill">
-            <img src={CSS} alt="CSS logo" />
-          </div>
-          <div className="skill">
-            <img src={javascript} alt="JavaScript logo" />
-          </div>
-          <div className="skill">
-            <img src={react} alt="React logo" />
-          </div>
-          <div className="skill">
-            <img src={angular} alt="Angular logo" />
-          </div>
-          <div className="skill">
-            <img src={node} alt="Node.js logo" />
-          </div>
-          <div className="skill">
-            <img src={express} alt="Express logo" />
-          </div>
-          <div className="skill">
-            <img src={python} alt="Python logo" />
-          </div>
-          <div className="skill">
-            <img src={java} alt="Java logo" id="java" />
-          </div>
-          <div className="skill">
-            <img src={c} alt="C logo" />
-          </div>
-          <div className="skill">
-            <img src={git} alt="Git logo" />
-          </div>
-          <div className="skill">
-            <img src={bash} alt="Bash logo" />
-          </div>
-          <div className="skill">
-            <img src={figma} alt="Figma logo" id="figma" />
-          </div>
+          {skills.map((skill) => {
+            return <Skill name={skill.name} img={skill.img} />;
+          })}
         </div>
       </div>
       <div className="dictionary-barrier">
