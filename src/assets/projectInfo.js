@@ -1,7 +1,6 @@
 import desktopNotes from "./desktopNotes.png";
 import marketing from "./marketingConsultancy.png";
 import portfolio from "./portfolio.svg";
-import jobApps from "./jobApps.png";
 import scorpion from "./scorpion.png";
 import figma from "./figma.png";
 import react from "./react.png";
@@ -17,6 +16,18 @@ import marketingConsultancy1 from "./marketingConsultancy1.png";
 import marketingConsultancy2 from "./marketingConsultancy2.png";
 
 export const projectList = [
+  {
+    src: portfolio,
+    alt: "Portfolio Website",
+    title: "Portfolio Website",
+    text: "search-engine-themed!",
+    url: "https://www.farahwamer.com",
+    small: true,
+    stack: [react, git, figma],
+    description: "Search-engine themed interactive portfolio website.",
+    relatedImages: [],
+    sourceCode: "https://github.com/farahwamer/portfolio",
+  },
   {
     src: desktopNotes,
     alt: "Desktop Notes",
@@ -42,31 +53,6 @@ export const projectList = [
     relatedImages: [marketingConsultancy1, marketingConsultancy2],
     sourceCode: "https://github.com/farahwamer/wamers-marketing-consultancy",
   },
-  {
-    src: jobApps,
-    alt: "Job application portal",
-    title: "Job application portal",
-    text: "Albatros Elite Club",
-    url: "https://www.albatroseliteclub.com/#/careers",
-    small: false,
-    stack: [react, git, figma],
-    description: "Job application portal for Albatros Elite Club",
-    relatedImages: [],
-    sourceCode: "",
-  },
-  {
-    src: portfolio,
-    alt: "Portfolio Website",
-    title: "Portfolio Website",
-    text: "search-engine-themed!",
-    url: "https://www.farahwamer.com",
-    small: true,
-    stack: [react, git, figma],
-    description: "Search-engine themed interactive portfolio website.",
-    relatedImages: [],
-    sourceCode: "https://github.com/farahwamer/portfolio",
-  },
-
   {
     src: scorpion,
     alt: "Scorpion Bug Tracker",

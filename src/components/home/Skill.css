@@ -1,0 +1,24 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: 0.02px solid #a2a2a2;
+  height: 6vw;
+  width: 6.5vw;
+  margin: 1rem;
+  border-radius: 0.42vw;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.skill p {
+  display: none;
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.skill img {
+  width: 2.5vw;
+  height: auto;
+}
