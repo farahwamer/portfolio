@@ -30,12 +30,12 @@ const Home = () => {
       text: "farahwamer has 4 repositories available. Follow their code on Github.",
       link: "https://github.com/farahwamer",
     },
-    {
-      url: "https://dribbble.com > wamerz",
-      title: "Dribbble | @wamerz",
-      text: "Explore this designers work on Dribbble, the best place for to designers gain inspiration, feedback, community, and jobs worldwide.",
-      link: "https://dribbble.com/wamerz",
-    },
+    // {
+    //   url: "https://dribbble.com > wamerz",
+    //   title: "Dribbble | @wamerz",
+    //   text: "Explore this designers work on Dribbble, the best place for to designers gain inspiration, feedback, community, and jobs worldwide.",
+    //   link: "https://dribbble.com/wamerz",
+    // },
   ];
 
   return (
