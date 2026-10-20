@@ -6,7 +6,6 @@ import react from "../assets/react.png";
 import git from "../assets/git.png";
 import sql from "../assets/sql.png";
 import python from "../assets/python.png";
-
 import desktopNotes1 from "../assets/desktopNotes1.png";
 import desktopNotes2 from "../assets/desktopNotes2.png";
 import marketingConsultancy1 from "../assets/marketingConsultancy1.png";

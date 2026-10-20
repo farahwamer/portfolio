@@ -33,10 +33,11 @@ const Dictionary = () => {
         <i>noun</i>
       </p>
       <ol className="dictionary-ol">
-        <li>A Software Developer with a flair for design.</li>
+        <li>Full-Stack Senior Software Developer with a flair for design.</li>
         <li>
-          An undergraduate student studying Computer Science, specializing in
-          Software Design.{" "}
+          Experienced in designing, developing, and deploying enterprise
+          AI-powered applications, bridging frontend engineering, backend
+          systems, and LLM integration.
         </li>
       </ol>
       <section className="dictionary-row-two">
