@@ -1,13 +1,9 @@
 import desktopNotes from "../assets/desktopNotes.png";
 import marketing from "../assets/marketingConsultancy.png";
 import portfolio from "../assets/portfolio.svg";
-import scorpion from "../assets/scorpion.png";
 import figma from "../assets/figma.png";
 import react from "../assets/react.png";
 import git from "../assets/git.png";
-import redux from "../assets/redux.png";
-import node from "../assets/node.png";
-import express from "../assets/express.png";
 import sql from "../assets/sql.png";
 import python from "../assets/python.png";
 
@@ -67,16 +63,4 @@ export const projectList = [
     relatedImages: [marketingConsultancy1, marketingConsultancy2],
     sourceCode: "https://github.com/farahwamer/wamers-marketing-consultancy",
   },
-  // {
-  //   src: scorpion,
-  //   alt: "Scorpion Bug Tracker",
-  //   title: "Scorpion",
-  //   text: "simple bug-tracker for personal projects",
-  //   url: "coming soon!",
-  //   small: false,
-  //   stack: [react, redux, sql, express, node, git, figma],
-  //   description: "Simple and customizeable bug tracker for personal projects",
-  //   relatedImages: [],
-  //   sourceCode: "",
-  // },
 ];
