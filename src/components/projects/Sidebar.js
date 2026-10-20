@@ -52,17 +52,11 @@ const Sidebar = (project) => {
               src={elem}
               className="stack-img"
               alt="programming languages used"
+              key={elem}
             />
           );
         })}
       </div>
-      {/* <hr className="sidebar-divider"></hr>
-      <p className="sidebar-divider-header">Related Images</p>
-      <div className="related-img-container">
-        {project.relatedImages.map((image) => {
-          return <img src={image} alt="related" className="related-img" />;
-        })}
-      </div> */}
     </div>
   );
 };

@@ -26,6 +26,7 @@ const Projects = () => {
               relatedImages={project.relatedImages}
               setActiveProject={setActiveProject}
               sourceCode={project.sourceCode}
+              key={project.title}
             />
           );
         })}

@@ -30,7 +30,7 @@ const Navbar = (props) => {
           onClick={() => props.setPage("Projects")}
         >
           <AiOutlineProject size={15} />
-          <p>Projects</p>
+          <p>Side Projects</p>
         </div>
       </section>
     </div>

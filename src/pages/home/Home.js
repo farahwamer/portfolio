@@ -8,15 +8,9 @@ const Home = () => {
   const linkInfo = [
     {
       url: "file:///Users/me/Documents/resume.pdf",
-      title: "Pretty Resume",
+      title: "Resume",
       text: "Check out Farah’s qualifications and work experience!",
       link: "/assets/Farah-Amer-Resume.pdf",
-    },
-    {
-      url: "file:///Users/me/Documents/resume-latex.pdf",
-      title: "Professional Resume",
-      text: "Check out Farah’s qualifications and work experience!",
-      link: "/assets/Farah-Amer-Resume-Latex.pdf",
     },
     {
       url: "https://www.linkedin.com > farah-amer",
@@ -30,12 +24,6 @@ const Home = () => {
       text: "farahwamer has 4 repositories available. Follow their code on Github.",
       link: "https://github.com/farahwamer",
     },
-    // {
-    //   url: "https://dribbble.com > wamerz",
-    //   title: "Dribbble | @wamerz",
-    //   text: "Explore this designers work on Dribbble, the best place for to designers gain inspiration, feedback, community, and jobs worldwide.",
-    //   link: "https://dribbble.com/wamerz",
-    // },
   ];
 
   return (
@@ -49,6 +37,7 @@ const Home = () => {
             title={obj.title}
             text={obj.text}
             link={obj.link}
+            key={obj.title}
           />
         );
       })}

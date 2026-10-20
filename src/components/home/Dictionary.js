@@ -61,7 +61,7 @@ const Dictionary = () => {
         <p className="dictionary-header">Skills</p>
         <div className="skills-icons-container">
           {skills.map((skill) => {
-            return <Skill name={skill.name} img={skill.img} />;
+            return <Skill name={skill.name} img={skill.img} key={skill.name} />;
           })}
         </div>
       </div>
