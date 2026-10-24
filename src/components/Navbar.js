@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../assets/logo.svg";
-import { AiOutlineSearch, AiOutlineProject } from "react-icons/ai";
+import { AiOutlineSearch } from "react-icons/ai";
 
 const Navbar = (props) => {
   const activeStyle = { borderBottom: "4px solid #e89897", color: "#e89897" };
