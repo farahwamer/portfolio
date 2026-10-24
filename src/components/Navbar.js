@@ -22,7 +22,7 @@ const Navbar = (props) => {
           <AiOutlineSearch size={15} />
           <p>All</p>
         </div>
-        <div
+        {/* <div
           className="navbar-projects"
           style={
             props.page === "Projects" ? activeStyle : { borderBottom: "none" }
@@ -31,7 +31,7 @@ const Navbar = (props) => {
         >
           <AiOutlineProject size={15} />
           <p>Side Projects</p>
-        </div>
+        </div> */}
       </section>
     </div>
   );
