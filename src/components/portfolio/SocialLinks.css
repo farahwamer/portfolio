@@ -1,0 +1,15 @@
+.social-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+.social-links a {
+  display: block;
+  border-radius: 50%;
+}
+.social-links img {
+  width: 36px;
+  height: 36px;
+}

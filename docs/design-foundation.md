@@ -1,6 +1,6 @@
 # Portfolio design foundation
 
-Scope: homepage first, followed by five case studies. No page rebuild yet.
+Scope: homepage implemented, followed by five planned case studies.
 
 ## Palette
 Paper #fdf6e9, primary ink #182c45, secondary ink #293c50,
@@ -41,5 +41,5 @@ immediately. Add motion after reviewing the static homepage.
 ## Integration
 Shared tokens are in src/styles/foundation.css, imported by src/index.js.
 Wrap the new homepage in .portfolio-site to activate the scoped base styles.
-Legacy pages retain their existing appearance until replaced. Keep the resume
-and useful existing assets. Preserve the user's .vscode/settings.json change.
+The legacy design has been removed. Keep the resume, active favicon,
+and current portfolio assets. Preserve the user's .vscode/settings.json change.

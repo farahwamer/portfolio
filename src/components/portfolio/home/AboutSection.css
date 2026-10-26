@@ -1,0 +1,123 @@
+
+.about-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(3rem, 6vw, 7rem);
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+.portrait-wrap {
+  position: relative;
+  max-width: 450px;
+}
+.about-portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.about-copy {
+  position: relative;
+  color: var(--color-ink-soft);
+}
+.about-copy h2 {
+  margin-bottom: 2rem;
+  color: var(--color-ink);
+}
+.about-paragraphs {
+  font-size: var(--text-lead);
+  line-height: 1.6;
+}
+.about-paragraphs p + p {
+  margin-top: 1.5rem;
+}
+.about-crown {
+  position: absolute;
+  width: clamp(65px, 22%, 100px);
+  /* Keep the entire crown above the frame, regardless of its scaled height. */
+  bottom: calc(100% + var(--space-2));
+  left: 0;
+  transform: translateX(-20%);
+}
+.about-lower-star {
+  position: absolute;
+  width: 42px;
+  bottom: -65px;
+  left: 22px;
+}
+.about-star {
+  position: absolute;
+  width: 72px;
+  right: -65px;
+  top: 55px;
+}
+.about-small-star {
+  position: absolute;
+  width: 24px;
+  right: 0;
+  bottom: 70px;
+}
+.about-marks {
+  position: absolute;
+  width: 55px;
+  right: 35px;
+  top: -18px;
+}
+@media (max-width: 64rem) {
+  .about-section {
+    gap: 3rem;
+  }
+  .about-star {
+    right: -20px;
+    top: -60px;
+    width: 50px;
+  }
+}
+@media (max-width: 48rem) {
+  .about-section {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    gap: 5rem;
+  }
+  .portrait-wrap {
+    width: 75%;
+    max-width: 340px;
+    margin-inline: auto;
+  }
+  .about-lower-star {
+    width: 30px;
+    bottom: -40px;
+  }
+  .about-copy h2 {
+    margin-bottom: 1.5rem;
+  }
+  .about-paragraphs {
+    font-size: 1.25rem;
+  }
+  .about-star {
+    right: 0;
+    top: -25px;
+    width: 40px;
+  }
+  .about-marks {
+    right: 50px;
+    top: -30px;
+    width: 35px;
+  }
+  .about-small-star {
+    right: 0;
+    bottom: 5px;
+  }
+}
+.about-small-star {
+  right: -20px;
+  bottom: 50px;
+}
+@media (max-width: 48rem) {
+  .about-small-star {
+    right: 0;
+    bottom: 5px;
+  }
+}
+

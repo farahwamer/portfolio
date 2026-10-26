@@ -1,5 +1,4 @@
-/* Shared foundation for the Figma portfolio rebuild.
-   Apply .portfolio-site to the new page root; legacy pages keep their styles. */
+/* Shared design tokens and scoped base styles for the portfolio. */
 :root {
   --color-paper: #fdf6e9;
   --color-ink: #182c45;
@@ -50,7 +49,7 @@
   isolation: isolate;
 }
 
-/* Override the legacy universal font rule only inside the new site. */
+/* Let nested content inherit its section typography. */
 .portfolio-site :where(*) { font-family: inherit; }
 .portfolio-site :where(*, *::before, *::after) { box-sizing: border-box; }
 .portfolio-site :where(h1, h2, h3, p, figure) { margin: 0; }

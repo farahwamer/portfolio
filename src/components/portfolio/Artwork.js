@@ -1,5 +1,6 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import artwork from "./artwork.json";
+import "./Artwork.css";
 
 function Layer({ node }) {
   return React.createElement(

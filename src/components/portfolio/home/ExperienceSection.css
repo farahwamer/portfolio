@@ -1,0 +1,230 @@
+
+.experience-section {
+  padding-top: 7rem;
+}
+.section-header {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  max-width: 960px;
+}
+.resume-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+.resume-marks {
+  position: absolute;
+  width: 48px;
+  top: -35px;
+  right: -28px;
+}
+.experience-entry {
+  position: relative;
+  max-width: 1000px;
+  margin-top: 5rem;
+}
+.experience-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2rem;
+  position: relative;
+  width: 80%;
+}
+.experience-heading h3 {
+  font-size: clamp(1.5rem, 1.8vw, 1.875rem);
+  font-weight: 700;
+  line-height: 1.4;
+}
+.experience-dates {
+  white-space: nowrap;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.timeline-marker {
+  position: absolute;
+  width: 150px;
+  left: -170px;
+  top: 8px;
+}
+.layoff-note {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--color-link);
+  margin-top: 0;
+}
+.role-history {
+  list-style: none;
+  padding-left: 2rem;
+  margin: 2.5rem 0 2rem;
+  font-style: italic;
+  font-size: 1.375rem;
+}
+.role-history li {
+  position: relative;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+.role-history li::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--color-ink);
+  border-radius: 50%;
+  left: -1.75rem;
+  top: 0.35em;
+}
+.role-history li:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -1.2rem;
+  top: 1.7em;
+  width: 3px;
+  border-radius: 10%;
+  background: #dfd0b8;
+}
+.experience-prose {
+  max-width: 65ch;
+  font-size: 1.375rem;
+  line-height: 1.65;
+}
+.experience-prose p + p {
+  margin-top: 1.5rem;
+}
+.project-list {
+  border-top: 1px solid var(--color-ink-soft);
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  max-width: 850px;
+  display: grid;
+  gap: 4rem;
+}
+.project-summary h4 {
+  margin: 0 0 0.75rem;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+.project-arrow {
+  align-self: center;
+  flex-shrink: 0;
+}
+.project-summary p {
+  font-size: 1.375rem;
+  max-width: 65ch;
+}
+.technology-row {
+  width: 250px;
+  max-width: 100%;
+  margin-top: 1.25rem;
+}
+.technology-row > .original-art {
+  min-height: 28px;
+}
+.role-title {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  font-size: 1.375rem;
+  font-style: italic;
+}
+.department-note {
+  position: relative;
+  margin: 1rem 0 -2rem auto;
+  max-width: 230px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.department-note > .original-art {
+  width: 100px;
+  flex-shrink: 0;
+}
+.department-note p {
+  color: #a4661d;
+  font: 600 0.875rem var(--font-body);
+}
+@media (max-width: 64rem) {
+  .section-header {
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .experience-heading {
+    gap: 1rem;
+  }
+  .experience-dates {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 48rem) {
+  .section-header {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .experience-section {
+    padding-top: 3rem;
+  }
+  .experience-entry {
+    margin-top: 3.5rem;
+  }
+  .experience-heading {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .experience-heading h3 {
+    padding-right: 0.5rem;
+  }
+  .timeline-marker {
+    width: 75px;
+    left: -90px;
+  }
+  .experience-prose,
+.project-summary p,
+.role-history,
+.role-title {
+    font-size: 1.25rem;
+  }
+  .project-summary h4 {
+    font-size: 1.375rem;
+  }
+  .department-note {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+  .department-note > .original-art {
+    width: 65px;
+  }
+}
+.experience-prose,
+.project-summary p {
+  max-width: 48rem;
+}
+.role-history li::before {
+  display: none;
+}
+.role-smile {
+  position: absolute;
+  width: 25px;
+  left: -1.95rem;
+  top: 0;
+}
+.role-circle {
+  position: absolute;
+  width: 21px;
+  left: -1.75rem;
+  top: 0.4em;
+}
+.resume-underline {
+  position: absolute;
+  width: 125px;
+  bottom: -12px;
+  left: 36px;
+}
+
