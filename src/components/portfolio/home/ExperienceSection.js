@@ -66,14 +66,6 @@ export default function ExperienceSection() {
         </ExperienceEntry>
 
         <div>
-          <aside className="department-note">
-            <Artwork name="departmentArrow" />
-            <p>
-              Same team as above,
-              <br />
-              new department!
-            </p>
-          </aside>
           <ExperienceEntry
             title="Royal Bank of Canada | Data & Analytics"
             dates="05/2023 – 08/2023"
