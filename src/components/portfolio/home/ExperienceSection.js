@@ -23,7 +23,7 @@ export default function ExperienceSection() {
           </h2>
         </div>
         <div className="resume-wrap">
-          <ResumeLink />
+          {/* <ResumeLink /> */}
           {/* <Artwork name="resumeUnderline" className="resume-underline" /> */}
           {/* <Artwork name="resumeMarks" className="resume-marks" /> */}
         </div>
@@ -51,9 +51,8 @@ export default function ExperienceSection() {
             real-world banking workflows. My work spanned everything from
             frontend to backend APIs to agent orchestration, system
             architecture, and production deployments. Along the way, I
-            collaborated with ML engineering and research teams, mentored
-            co-op developers, and helped bring ideas from concept to
-            production.
+            collaborated with ML engineering and research teams, mentored co-op
+            developers, and helped bring ideas from concept to production.
           </p>
           <p>
             * I was also a proud member of the social committee organizing
@@ -81,11 +80,11 @@ export default function ExperienceSection() {
         <p className="role-title">Full-Stack Software Developer Co-op</p>
         <p className="experience-prose">
           During my Data &amp; Analytics co-op at RBC, I contributed to the
-          bank's enterprise data platform, working across frontend
-          development, backend integrations, and reusable UI components. I
-          also helped develop and pitch an automated scheduling solution to
-          senior bank executives, contributing to its implementation after our
-          team won the business case competition.
+          bank's enterprise data platform, working across frontend development,
+          backend integrations, and reusable UI components. I also helped
+          develop and pitch an automated scheduling solution to senior bank
+          executives, contributing to its implementation after our team won the
+          business case competition.
         </p>
       </ExperienceEntry>
       <ExperienceEntry
@@ -97,8 +96,8 @@ export default function ExperienceSection() {
           During my RBC Amplify co-op, I worked on developing a machine
           learning-powered application to predict potential system errors
           through log analysis. I collaborated with Site Reliability Engineers
-          to understand their challenges, refine the solution through
-          feedback, and pitch our team's work to senior bank executives.
+          to understand their challenges, refine the solution through feedback,
+          and pitch our team's work to senior bank executives.
         </p>
         <div className="project-list">
           <ProjectSummary project={projects[4]} />
