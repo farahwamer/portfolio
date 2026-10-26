@@ -223,3 +223,34 @@
     opacity: 1;
   }
 }
+
+/* Keep separators still while the link text receives a hand-drawn accent. */
+.hero-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  transition: color var(--motion-fast) ease;
+}
+.hero-links a > span {
+  position: relative;
+}
+.hero-links a > span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 2px;
+  border-radius: 50%;
+  background: var(--color-pink);
+  transform: scaleX(0) rotate(-1deg);
+  transform-origin: left;
+  transition: transform var(--motion-fast) var(--motion-ease);
+}
+.hero-links a:focus-visible { color: var(--color-ink); }
+.hero-links a:focus-visible > span::after { transform: scaleX(1) rotate(-1deg); }
+@media (hover: hover) and (pointer: fine) {
+  .hero-links a:hover { color: var(--color-ink); }
+  .hero-links a:hover > span::after { transform: scaleX(1) rotate(-1deg); }
+}
+.hero-links a:active { color: var(--color-blue); }

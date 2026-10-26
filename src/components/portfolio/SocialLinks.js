@@ -8,7 +8,7 @@ export default function SocialLinks({ large = false }) {
     <ul className="social-links" aria-label="Find me online">
       {socials.map((s) => (
         <li key={s.label}>
-          <a href={s.href} aria-label={s.label}>
+          <a href={s.href} aria-label={s.label} title={s.label}>
             <img
               src={
                 large

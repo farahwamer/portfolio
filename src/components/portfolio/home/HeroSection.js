@@ -37,10 +37,10 @@ export default function HeroSection() {
         <nav className="hero-links" aria-label="Social and resume links">
           {socials.map((s) => (
             <a key={s.label} href={s.href}>
-              {s.label}
+              <span>{s.label}</span>
             </a>
           ))}
-          <a href={resume}>Resume</a>
+          <a href={resume}><span>Resume</span></a>
         </nav>
       </div>
     </section>
