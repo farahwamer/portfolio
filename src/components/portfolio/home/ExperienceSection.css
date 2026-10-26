@@ -1,6 +1,8 @@
-
 .experience-section {
   padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .section-header {
   display: flex;
@@ -23,7 +25,12 @@
 .experience-entry {
   position: relative;
   max-width: 1000px;
-  margin-top: 5rem;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
 }
 .experience-heading {
   display: flex;
@@ -32,23 +39,24 @@
   justify-content: space-between;
   gap: 2rem;
   position: relative;
-  width: 80%;
+  width: 100%;
 }
 .experience-heading h3 {
-  font-size: clamp(1.5rem, 1.8vw, 1.875rem);
+  font-size: clamp(1.75rem, 1.8vw, 1.875rem);
   font-weight: 700;
   line-height: 1.4;
 }
 .experience-dates {
   white-space: nowrap;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-weight: 700;
 }
 .timeline-marker {
-  position: absolute;
+  /* position: absolute;
   width: 150px;
   left: -170px;
-  top: 8px;
+  top: 8px; */
+  width: 150px;
 }
 .layoff-note {
   font-family: var(--font-body);
@@ -162,8 +170,8 @@
     left: -90px;
   }
   .experience-prose,
-.role-history,
-.role-title {
+  .role-history,
+  .role-title {
     font-size: 1.25rem;
   }
   .department-note {
@@ -198,4 +206,3 @@
   bottom: -12px;
   left: 36px;
 }
-
