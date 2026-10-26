@@ -1,7 +1,6 @@
 import React from "react";
 import Reveal from "../Reveal";
 import Artwork from "../Artwork";
-import ResumeLink from "../ResumeLink";
 import ExperienceEntry from "./ExperienceEntry";
 import ProjectSummary from "./ProjectSummary";
 import { projects } from "../../../data/portfolioProjects";
@@ -17,7 +16,7 @@ export default function ExperienceSection() {
       <Reveal as="header" className="section-header">
         <div>
           <p className="section-eyebrow">
-            But enough about my hobbies, let's talk about
+            But enough about my hobbies, let&apos;s talk about
           </p>
           <h2 id="experience-heading" className="portfolio-display">
             My Experience
@@ -82,7 +81,7 @@ export default function ExperienceSection() {
             <p className="role-title">Full-Stack Software Developer Co-op</p>
             <p className="experience-prose">
               During my Data &amp; Analytics co-op at RBC, I contributed to the
-              bank's enterprise data platform, working across frontend
+              bank&apos;s enterprise data platform, working across frontend
               development, backend integrations, and reusable UI components. I
               also helped develop and pitch an automated scheduling solution to
               senior bank executives, contributing to its implementation after
@@ -101,7 +100,7 @@ export default function ExperienceSection() {
             learning-powered application to predict potential system errors
             through log analysis. I collaborated with Site Reliability Engineers
             to understand their challenges, refine the solution through
-            feedback, and pitch our team's work to senior bank executives.
+            feedback, and pitch our team&apos;s work to senior bank executives.
           </p>
           <div className="project-list">
             <ProjectSummary project={projects[4]} />

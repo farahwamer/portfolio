@@ -1,4 +1,6 @@
+import PropTypes from "prop-types";
 import React, { useLayoutEffect, useRef, useState } from "react";
+import { contentType } from "./propTypes";
 import artwork from "./artwork.json";
 import caseArtwork from "./caseArtwork.json";
 import "./Artwork.css";
@@ -74,3 +76,16 @@ export default function Artwork({
     </div>
   );
 }
+
+Layer.propTypes = {
+  node: contentType,
+  assetOverrides: PropTypes.objectOf(PropTypes.string),
+};
+
+Artwork.propTypes = {
+  name: PropTypes.string.isRequired,
+  className: PropTypes.string,
+  label: PropTypes.string,
+  assetOverrides: PropTypes.objectOf(PropTypes.string),
+  containerRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
+};

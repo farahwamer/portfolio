@@ -1,9 +1,9 @@
+import { studyType, projectType } from "../../components/portfolio/propTypes";
 import React from "react";
 import Reveal from "../../components/portfolio/Reveal";
 import CaseStudyHeader from "../../components/portfolio/case-studies/CaseStudyHeader";
 import CaseStudyContent from "../../components/portfolio/case-studies/CaseStudyContent";
 import CaseStudyHighlight from "../../components/portfolio/case-studies/CaseStudyHighlight";
-import BackToExperience from "../../components/portfolio/case-studies/BackToExperience";
 import "./CaseStudyPage.css";
 
 export default function CaseStudyPage({ study, project }) {
@@ -45,3 +45,8 @@ export default function CaseStudyPage({ study, project }) {
     </main>
   );
 }
+
+CaseStudyPage.propTypes = {
+  study: studyType.isRequired,
+  project: projectType.isRequired,
+};

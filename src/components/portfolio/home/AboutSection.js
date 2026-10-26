@@ -35,8 +35,8 @@ export default function AboutSection() {
         {/* <Artwork name="aboutSmallStar" className="about-small-star" /> */}
         <div className="about-paragraphs">
           <p>
-            I'm a full-stack software developer and I{" "}
-            <strong>love making things!</strong> Whether that's through code,
+            I&apos;m a full-stack software developer and I{" "}
+            <strong>love making things!</strong> Whether that&apos;s through code,
             arts and crafts, or an overly ambitious recipe I find online.
           </p>
           <p>

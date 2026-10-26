@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 import "./Entrance.css";
 
@@ -14,3 +15,10 @@ export default function Entrance({
     </Element>
   );
 }
+
+Entrance.propTypes = {
+  as: PropTypes.elementType,
+  stage: PropTypes.string,
+  className: PropTypes.string,
+  children: PropTypes.node,
+};

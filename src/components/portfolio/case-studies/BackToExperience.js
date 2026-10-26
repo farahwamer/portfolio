@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 import { homeProjectHref } from "../../../data/portfolioRoutes";
 import assets from "../../../data/caseStudyAssets.json";
@@ -11,3 +12,7 @@ export default function BackToExperience({ projectId }) {
     </a>
   );
 }
+
+BackToExperience.propTypes = {
+  projectId: PropTypes.string.isRequired,
+};

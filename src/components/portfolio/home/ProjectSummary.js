@@ -1,3 +1,4 @@
+import { projectType } from "../propTypes";
 import React from "react";
 import "./ProjectSummary.css";
 import Artwork from "../Artwork";
@@ -31,3 +32,7 @@ export default function ProjectSummary({ project }) {
     </article>
   );
 }
+
+ProjectSummary.propTypes = {
+  project: projectType.isRequired,
+};

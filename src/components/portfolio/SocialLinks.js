@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 import "./SocialLinks.css";
 import assets from "./assets.json";
@@ -29,3 +30,7 @@ export default function SocialLinks({ large = false }) {
     </ul>
   );
 }
+
+SocialLinks.propTypes = {
+  large: PropTypes.bool,
+};

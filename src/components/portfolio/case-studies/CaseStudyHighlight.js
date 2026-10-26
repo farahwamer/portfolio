@@ -1,3 +1,4 @@
+import { highlightType } from "../propTypes";
 import React from "react";
 import Artwork from "../Artwork";
 import Reveal from "../Reveal";
@@ -24,3 +25,7 @@ export default function CaseStudyHighlight({ highlight }) {
     </Reveal>
   );
 }
+
+CaseStudyHighlight.propTypes = {
+  highlight: highlightType.isRequired,
+};

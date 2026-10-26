@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React, { useEffect, useRef, useState } from "react";
 import Artwork from "./Artwork";
 import drawingAssets from "./drawingAssets.json";
@@ -41,3 +42,9 @@ export default function DrawnArtwork({
     />
   );
 }
+
+DrawnArtwork.propTypes = {
+  ...Artwork.propTypes,
+  drawOnVisible: PropTypes.bool,
+  className: PropTypes.string,
+};

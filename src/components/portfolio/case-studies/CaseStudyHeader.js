@@ -1,3 +1,4 @@
+import { studyType, projectType } from "../propTypes";
 import React from "react";
 import Artwork from "../Artwork";
 import DrawnArtwork from "../DrawnArtwork";
@@ -68,3 +69,8 @@ export default function CaseStudyHeader({ study, project }) {
     </header>
   );
 }
+
+CaseStudyHeader.propTypes = {
+  study: studyType.isRequired,
+  project: projectType.isRequired,
+};

@@ -1,3 +1,4 @@
+import { contentType } from "../propTypes";
 import React from "react";
 
 // Render the semantic text structure extracted from Figma, without its fixed
@@ -13,3 +14,7 @@ export default function CaseStudyContent({ content }) {
     )),
   );
 }
+
+CaseStudyContent.propTypes = {
+  content: contentType,
+};

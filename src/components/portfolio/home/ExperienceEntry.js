@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 import Reveal from "../Reveal";
 
@@ -17,3 +18,10 @@ export default function ExperienceEntry({
     </Reveal>
   );
 }
+
+ExperienceEntry.propTypes = {
+  title: PropTypes.string.isRequired,
+  dates: PropTypes.string.isRequired,
+  children: PropTypes.node,
+  className: PropTypes.string,
+};

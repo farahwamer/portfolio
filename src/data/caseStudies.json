@@ -10,9 +10,7 @@
         {
           "tag": "p",
           "props": {},
-          "children": [
-            "The commercial credit underwriting process is"
-          ]
+          "children": ["The commercial credit underwriting process is"]
         },
         {
           "tag": "ul",
@@ -25,9 +23,7 @@
                 {
                   "tag": "span",
                   "props": {},
-                  "children": [
-                    "complex"
-                  ]
+                  "children": ["complex"]
                 }
               ]
             },
@@ -38,9 +34,7 @@
                 {
                   "tag": "span",
                   "props": {},
-                  "children": [
-                    "time-consuming "
-                  ]
+                  "children": ["time-consuming "]
                 }
               ]
             },
@@ -51,9 +45,7 @@
                 {
                   "tag": "span",
                   "props": {},
-                  "children": [
-                    "involves multiple tools"
-                  ]
+                  "children": ["involves multiple tools"]
                 }
               ]
             },
@@ -64,9 +56,7 @@
                 {
                   "tag": "span",
                   "props": {},
-                  "children": [
-                    "involves fragmented data sources"
-                  ]
+                  "children": ["involves fragmented data sources"]
                 }
               ]
             },
@@ -77,9 +67,7 @@
                 {
                   "tag": "span",
                   "props": {},
-                  "children": [
-                    "requires significant manual effort. "
-                  ]
+                  "children": ["requires significant manual effort. "]
                 }
               ]
             }
@@ -93,23 +81,7 @@
               "tag": "span",
               "props": {},
               "children": [
-                "Due to this, it requires significant manual effort from financial specialists and underwriters to prepare a comprehensive credit memo"
-              ]
-            },
-            {
-              "tag": "strong",
-              "props": {
-                "className": "case-study-note-marker"
-              },
-              "children": [
-                "*"
-              ]
-            },
-            {
-              "tag": "span",
-              "props": {},
-              "children": [
-                "."
+                "Due to this, it requires significant manual effort from financial specialists and underwriters to prepare a comprehensive credit memo."
               ]
             }
           ]
@@ -155,18 +127,14 @@
             {
               "tag": "span",
               "props": {},
-              "children": [
-                "We implemented a dynamic DAG-based"
-              ]
+              "children": ["We implemented a dynamic DAG-based"]
             },
             {
               "tag": "strong",
               "props": {
                 "className": "case-study-note-marker"
               },
-              "children": [
-                "**"
-              ]
+              "children": ["**"]
             },
             {
               "tag": "span",
@@ -218,9 +186,7 @@
             {
               "tag": "span",
               "props": {},
-              "children": [
-                "API contracts and planning "
-              ]
+              "children": ["API contracts and planning "]
             },
             {
               "tag": "span",

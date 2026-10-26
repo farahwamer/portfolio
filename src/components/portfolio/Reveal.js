@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React, { useEffect, useRef, useState } from "react";
 import "./Reveal.css";
 
@@ -48,3 +49,10 @@ export default function Reveal({
     </Element>
   );
 }
+
+Reveal.propTypes = {
+  as: PropTypes.elementType,
+  className: PropTypes.string,
+  children: PropTypes.node,
+  onFocusCapture: PropTypes.func,
+};
