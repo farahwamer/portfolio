@@ -16,7 +16,7 @@ export default function ExperienceSection() {
       <header className="section-header">
         <div>
           <p className="section-eyebrow">
-            But enough about me, let’s talk about
+            But enough about my hobbies, let's talk about
           </p>
           <h2 id="experience-heading" className="portfolio-display">
             My Experience

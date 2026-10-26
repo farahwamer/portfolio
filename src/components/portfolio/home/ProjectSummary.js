@@ -10,7 +10,7 @@ export default function ProjectSummary({ project }) {
         {project.title}
         <img
           className="project-arrow"
-          src={assets.imgVector133}
+          src={assets.projectExternalArrow}
           alt=""
           width="16"
           height="16"

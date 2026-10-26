@@ -33,7 +33,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/8d458.svg"
+                "src": "/assets/figma/role-smiley-face.svg"
               },
               "children": []
             }
@@ -64,7 +64,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/9efc5.svg"
+                "src": "/assets/figma/role-smiley-eye.svg"
               },
               "children": []
             }
@@ -95,7 +95,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/9efc5.svg"
+                "src": "/assets/figma/role-smiley-eye.svg"
               },
               "children": []
             }
@@ -133,7 +133,7 @@
                       "width": "100%",
                       "height": "100%"
                     },
-                    "src": "/assets/figma/b7f17.svg"
+                    "src": "/assets/figma/role-smiley-mouth.svg"
                   },
                   "children": []
                 }
@@ -192,7 +192,7 @@
                               "width": "100%",
                               "height": "100%"
                             },
-                            "src": "/assets/figma/39d4d.svg"
+                            "src": "/assets/figma/role-smiley-crown.svg"
                           },
                           "children": []
                         }
@@ -237,7 +237,7 @@
               "width": "100%",
               "height": "100%"
             },
-            "src": "/assets/figma/d769c.svg"
+            "src": "/assets/figma/role-secondary-circle.svg"
           },
           "children": []
         }
@@ -278,7 +278,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/d11f8.svg"
+                "src": "/assets/figma/resume-hand-drawn-underline.svg"
               },
               "children": []
             }
@@ -372,7 +372,7 @@
                                   "width": "100%",
                                   "height": "100%"
                                 },
-                                "src": "/assets/figma/e2593.svg"
+                                "src": "/assets/figma/portrait-frame-inner-border.svg"
                               },
                               "children": []
                             }
@@ -434,7 +434,7 @@
                                           "width": "100%",
                                           "height": "100%"
                                         },
-                                        "src": "/assets/figma/48a8c.svg"
+                                        "src": "/assets/figma/portrait-frame-outer-border.svg"
                                       },
                                       "children": []
                                     }
@@ -478,7 +478,7 @@
                                   "width": "100%",
                                   "height": "100%"
                                 },
-                                "src": "/assets/figma/ecd02.svg"
+                                "src": "/assets/figma/portrait-frame-left-leaf.svg"
                               },
                               "children": []
                             }
@@ -540,7 +540,7 @@
                                           "width": "100%",
                                           "height": "100%"
                                         },
-                                        "src": "/assets/figma/ecd02.svg"
+                                        "src": "/assets/figma/portrait-frame-left-leaf.svg"
                                       },
                                       "children": []
                                     }
@@ -577,7 +577,7 @@
                               "width": "100%",
                               "height": "100%"
                             },
-                            "src": "/assets/figma/f1980.svg"
+                            "src": "/assets/figma/portrait-frame-left-flower.svg"
                           },
                           "children": []
                         }
@@ -637,7 +637,7 @@
                                           "width": "100%",
                                           "height": "100%"
                                         },
-                                        "src": "/assets/figma/3ba81.svg"
+                                        "src": "/assets/figma/portrait-frame-right-leaf.svg"
                                       },
                                       "children": []
                                     }
@@ -703,7 +703,7 @@
                                           "width": "100%",
                                           "height": "100%"
                                         },
-                                        "src": "/assets/figma/3ba81.svg"
+                                        "src": "/assets/figma/portrait-frame-right-leaf.svg"
                                       },
                                       "children": []
                                     }
@@ -762,7 +762,7 @@
                                       "width": "100%",
                                       "height": "100%"
                                     },
-                                    "src": "/assets/figma/0f9ba.svg"
+                                    "src": "/assets/figma/portrait-frame-right-flower.svg"
                                   },
                                   "children": []
                                 }
@@ -819,7 +819,7 @@
                                       "width": "100%",
                                       "height": "100%"
                                     },
-                                    "src": "/assets/figma/17bd0.svg"
+                                    "src": "/assets/figma/portrait-frame-bottom-vine.svg"
                                   },
                                   "children": []
                                 }
@@ -890,7 +890,7 @@
                                           "width": "100%",
                                           "height": "100%"
                                         },
-                                        "src": "/assets/figma/390b4.svg"
+                                        "src": "/assets/figma/portrait-frame-top-left-corner.svg"
                                       },
                                       "children": []
                                     }
@@ -947,7 +947,7 @@
                                           "width": "100%",
                                           "height": "100%"
                                         },
-                                        "src": "/assets/figma/2b662.svg"
+                                        "src": "/assets/figma/portrait-frame-top-right-corner.svg"
                                       },
                                       "children": []
                                     }
@@ -1004,7 +1004,7 @@
                                           "width": "100%",
                                           "height": "100%"
                                         },
-                                        "src": "/assets/figma/11a89.svg"
+                                        "src": "/assets/figma/portrait-frame-bottom-left-corner.svg"
                                       },
                                       "children": []
                                     }
@@ -1061,7 +1061,7 @@
                                           "width": "100%",
                                           "height": "100%"
                                         },
-                                        "src": "/assets/figma/c7167.svg"
+                                        "src": "/assets/figma/portrait-frame-bottom-right-corner.svg"
                                       },
                                       "children": []
                                     }
@@ -1118,7 +1118,7 @@
                                           "width": "100%",
                                           "height": "100%"
                                         },
-                                        "src": "/assets/figma/94fa5.svg"
+                                        "src": "/assets/figma/portrait-frame-top-vine.svg"
                                       },
                                       "children": []
                                     }
@@ -1183,7 +1183,7 @@
                                       "width": "100%",
                                       "height": "100%"
                                     },
-                                    "src": "/assets/figma/d36d6.svg"
+                                    "src": "/assets/figma/portrait-frame-top-sun.svg"
                                   },
                                   "children": []
                                 }
@@ -1249,7 +1249,7 @@
                                       "width": "100%",
                                       "height": "100%"
                                     },
-                                    "src": "/assets/figma/bb002.svg"
+                                    "src": "/assets/figma/portrait-frame-bottom-sun.svg"
                                   },
                                   "children": []
                                 }
@@ -1293,7 +1293,7 @@
                               "width": "100%",
                               "height": "100%"
                             },
-                            "src": "/assets/figma/f09cb.svg"
+                            "src": "/assets/figma/portrait-frame-top-left-rays.svg"
                           },
                           "children": []
                         }
@@ -1333,7 +1333,7 @@
                               "width": "100%",
                               "height": "100%"
                             },
-                            "src": "/assets/figma/41205.svg"
+                            "src": "/assets/figma/portrait-frame-top-right-rays.svg"
                           },
                           "children": []
                         }
@@ -1395,7 +1395,7 @@
                                       "width": "100%",
                                       "height": "100%"
                                     },
-                                    "src": "/assets/figma/a9024.svg"
+                                    "src": "/assets/figma/portrait-frame-bottom-right-rays.svg"
                                   },
                                   "children": []
                                 }
@@ -1461,7 +1461,7 @@
                                       "width": "100%",
                                       "height": "100%"
                                     },
-                                    "src": "/assets/figma/4a39f.svg"
+                                    "src": "/assets/figma/portrait-frame-bottom-left-rays.svg"
                                   },
                                   "children": []
                                 }
@@ -1546,7 +1546,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/91f12.svg"
+                "src": "/assets/figma/grid-vertical-lines.svg"
               },
               "children": []
             }
@@ -1589,7 +1589,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/6bc3e.svg"
+                "src": "/assets/figma/grid-horizontal-lines.svg"
               },
               "children": []
             }
@@ -1632,7 +1632,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/07eb7.svg"
+                "src": "/assets/figma/grid-cream-fade-top.svg"
               },
               "children": []
             }
@@ -1695,7 +1695,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/4dcb6.svg"
+                        "src": "/assets/figma/grid-cream-fade-bottom.svg"
                       },
                       "children": []
                     }
@@ -1742,7 +1742,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/b88d9.svg"
+                "src": "/assets/figma/hero-blue-starburst.svg"
               },
               "children": []
             }
@@ -1804,7 +1804,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/4062c.svg"
+                        "src": "/assets/figma/hero-small-blue-starburst.svg"
                       },
                       "children": []
                     }
@@ -1873,7 +1873,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/45407.svg"
+                        "src": "/assets/figma/hero-large-pink-flower.svg"
                       },
                       "children": []
                     }
@@ -1939,7 +1939,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/07b83.svg"
+                        "src": "/assets/figma/hero-small-pink-flower.svg"
                       },
                       "children": []
                     }
@@ -2006,7 +2006,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/16a8f.svg"
+                        "src": "/assets/figma/hero-orange-sparkle.svg"
                       },
                       "children": []
                     }
@@ -2075,7 +2075,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/dd1bd.svg"
+                        "src": "/assets/figma/small-orange-sparkle.svg"
                       },
                       "children": []
                     }
@@ -2122,7 +2122,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/14915.svg"
+                "src": "/assets/figma/about-orange-starburst.svg"
               },
               "children": []
             }
@@ -2165,7 +2165,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/78908.svg"
+                "src": "/assets/figma/about-small-orange-starburst.svg"
               },
               "children": []
             }
@@ -2208,7 +2208,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/75332.svg"
+                "src": "/assets/figma/about-lower-orange-starburst.svg"
               },
               "children": []
             }
@@ -2251,7 +2251,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/a21b9.svg"
+                "src": "/assets/figma/about-pink-crown.svg"
               },
               "children": []
             }
@@ -2316,7 +2316,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/4bfb9.svg"
+                        "src": "/assets/figma/about-pink-emphasis-marks.svg"
                       },
                       "children": []
                     }
@@ -2385,7 +2385,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/be08f.svg"
+                        "src": "/assets/figma/resume-yellow-emphasis-marks.svg"
                       },
                       "children": []
                     }
@@ -2432,7 +2432,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/591c1.svg"
+                "src": "/assets/figma/experience-timeline-marker.svg"
               },
               "children": []
             }
@@ -2497,7 +2497,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/037d0.svg"
+                        "src": "/assets/figma/department-curved-arrow.svg"
                       },
                       "children": []
                     }
@@ -2569,7 +2569,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/6e3c7.svg"
+                        "src": "/assets/figma/contact-telephone-doodle.svg"
                       },
                       "children": []
                     }
@@ -2616,7 +2616,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/db46a.svg"
+                "src": "/assets/figma/contact-blue-starburst.svg"
               },
               "children": []
             }
@@ -2659,7 +2659,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/2c488.svg"
+                "src": "/assets/figma/contact-pink-starburst.svg"
               },
               "children": []
             }
@@ -2702,7 +2702,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/15be8.svg"
+                "src": "/assets/figma/contact-orange-starburst.svg"
               },
               "children": []
             }
@@ -2748,7 +2748,7 @@
                   "width": "100%",
                   "height": "100%"
                 },
-                "src": "/assets/figma/1d93c.svg"
+                "src": "/assets/figma/contact-orange-sparkle.svg"
               },
               "children": []
             }
@@ -2813,7 +2813,7 @@
                           "width": "100%",
                           "height": "100%"
                         },
-                        "src": "/assets/figma/dd1bd.svg"
+                        "src": "/assets/figma/small-orange-sparkle.svg"
                       },
                       "children": []
                     }
@@ -2946,7 +2946,7 @@
                   "maskSize": "28px 28px",
                   "top": "3322.78px",
                   "width": "32.464px",
-                  "maskImage": "url(\"/assets/figma/fd1b5.svg\")"
+                  "maskImage": "url(\"/assets/figma/technology-circle-mask.svg\")"
                 },
                 "data-node-id": "2001:1010"
               },
@@ -3178,7 +3178,7 @@
                   "position": "relative",
                   "gridRow": 1,
                   "width": "32.464px",
-                  "maskImage": "url(\"/assets/figma/fd1b5.svg\")"
+                  "maskImage": "url(\"/assets/figma/technology-circle-mask.svg\")"
                 },
                 "data-node-id": "2001:1046"
               },
@@ -3854,7 +3854,7 @@
                   "position": "relative",
                   "gridRow": 1,
                   "width": "32.464px",
-                  "maskImage": "url(\"/assets/figma/fd1b5.svg\")"
+                  "maskImage": "url(\"/assets/figma/technology-circle-mask.svg\")"
                 },
                 "data-node-id": "2001:970"
               },

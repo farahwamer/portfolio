@@ -11,6 +11,11 @@
   justify-content: space-between;
   margin-bottom: 5rem;
   max-width: 960px;
+  & > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 }
 .resume-wrap {
   position: relative;
