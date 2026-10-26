@@ -1,4 +1,5 @@
 import React from "react";
+import "./ProjectSummary.css";
 import Artwork from "../Artwork";
 import assets from "../assets.json";
 

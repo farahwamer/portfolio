@@ -99,34 +99,10 @@
 .project-list {
   border-top: 1px solid var(--color-ink-soft);
   margin-top: 2.5rem;
-  padding-top: 2.5rem;
+  padding-top: 0;
   max-width: 850px;
   display: grid;
-  gap: 4rem;
-}
-.project-summary h4 {
-  margin: 0 0 0.75rem;
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-  font-size: 1.375rem;
-  font-weight: 700;
-}
-.project-arrow {
-  align-self: center;
-  flex-shrink: 0;
-}
-.project-summary p {
-  font-size: 1.375rem;
-  max-width: 65ch;
-}
-.technology-row {
-  width: 250px;
-  max-width: 100%;
-  margin-top: 1.25rem;
-}
-.technology-row > .original-art {
-  min-height: 28px;
+  gap: 0;
 }
 .role-title {
   margin-top: 1.5rem !important;
@@ -186,13 +162,9 @@
     left: -90px;
   }
   .experience-prose,
-.project-summary p,
 .role-history,
 .role-title {
     font-size: 1.25rem;
-  }
-  .project-summary h4 {
-    font-size: 1.375rem;
   }
   .department-note {
     margin-top: 1.5rem;
@@ -202,8 +174,7 @@
     width: 65px;
   }
 }
-.experience-prose,
-.project-summary p {
+.experience-prose {
   max-width: 48rem;
 }
 .role-history li::before {
