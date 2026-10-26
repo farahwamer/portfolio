@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="visible" style="display: block;" width="76.8" height="72.8" viewBox="0 0 76.8 72.8" fill="none">
+<g mask="url(#draw-reveal)"><g id="Vector" filter="url(#filter0_g_0_10)">
+<path d="M11.3462 12.8528L38.4 35.8422M38.4 35.8422L39.1709 36.4972M38.4 35.8422V4.4M38.4 35.8422L38.4 37.0038M39.1709 36.4972L39.767 37.0038M39.1709 36.4972L65.4538 13.8591M39.1709 36.4972L38.5828 37.0038M39.767 37.0038L65.8194 59.1421M39.767 37.0038H38.5828M39.767 37.0038H72.4M38.5828 37.0038L38.4 37.1612M38.5828 37.0038H38.4M38.4 37.1612L11.7118 60.1484M38.4 37.1612V37.0038M38.4 37.1612V68.4M38.4 37.0038H4.4" stroke-width="5" stroke-linecap="round" stroke="#E18391" />
+</g>
+</g><defs>
+<filter id="filter0_g_0_10" x="1.19209e-07" y="1.19209e-07" width="76.8" height="72.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix" />
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+<feTurbulence type="fractalNoise" baseFrequency="0.25 0.25" numOctaves="3" seed="6281" />
+<feDisplacementMap in="shape" scale="3.7999999523162842" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect1_texture_0_10">
+<feMergeNode in="displacedImage" />
+</feMerge>
+</filter>
+<mask id="draw-reveal" maskUnits="userSpaceOnUse" x="-16" y="-16" width="108.8" height="104.8" style="mask-type: luminance"><path d="M11.3462 12.8528L38.4 35.8422" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 300.00ms; --draw-duration: 71.16ms;" /><path d="M38.4 35.8422L39.1709 36.4972" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 371.16ms; --draw-duration: 2.03ms;" /><path d="M38.4 35.8422V4.4" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 373.18ms; --draw-duration: 63.02ms;" /><path d="M38.4 35.8422L38.4 37.0038" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 436.20ms; --draw-duration: 2.33ms;" /><path d="M39.1709 36.4972L39.767 37.0038" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 438.53ms; --draw-duration: 1.57ms;" /><path d="M39.1709 36.4972L65.4538 13.8591" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 440.10ms; --draw-duration: 69.52ms;" /><path d="M39.1709 36.4972L38.5828 37.0038" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 509.62ms; --draw-duration: 1.56ms;" /><path d="M39.767 37.0038L65.8194 59.1421" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 511.18ms; --draw-duration: 68.52ms;" /><path d="M39.767 37.0038H38.5828" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 579.70ms; --draw-duration: 2.37ms;" /><path d="M39.767 37.0038H72.4" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 582.08ms; --draw-duration: 65.41ms;" /><path d="M38.5828 37.0038L38.4 37.1612" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 647.48ms; --draw-duration: 0.48ms;" /><path d="M38.5828 37.0038H38.4" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 647.96ms; --draw-duration: 0.37ms;" /><path d="M38.4 37.1612L11.7118 60.1484" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 648.33ms; --draw-duration: 70.60ms;" /><path d="M38.4 37.1612V37.0038" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 718.93ms; --draw-duration: 0.32ms;" /><path d="M38.4 37.1612V68.4" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 719.24ms; --draw-duration: 62.61ms;" /><path d="M38.4 37.0038H4.4" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 781.85ms; --draw-duration: 68.15ms;" /></mask></defs>
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .drawing-stroke {
+    stroke-dasharray: 1;
+    animation: draw-stroke var(--draw-duration) linear var(--draw-delay) both;
+  }
+}
+@keyframes draw-stroke {
+  0% { stroke-dashoffset: 1; opacity: 0; }
+  1% { opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 1; }
+}
+</style></svg>

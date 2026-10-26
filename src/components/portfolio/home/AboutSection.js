@@ -1,6 +1,6 @@
 import React from "react";
 import farahPortrait from "../../../assets/farah-portrait.svg";
-import Artwork from "../Artwork";
+import DrawnArtwork from "../DrawnArtwork";
 import SocialLinks from "../SocialLinks";
 import "./AboutSection.css";
 
@@ -19,7 +19,7 @@ export default function AboutSection() {
           width="556"
           height="615"
         />
-        <Artwork name="aboutLowerStar" className="about-lower-star" />
+        <DrawnArtwork name="aboutLowerStar" className="about-lower-star" drawOnVisible />
       </div>
       <div className="about-copy">
         <p className="section-eyebrow">
@@ -29,7 +29,7 @@ export default function AboutSection() {
           About Me
         </h2>
         {/* <Artwork name="aboutMarks" className="about-marks" /> */}
-        <Artwork name="aboutStar" className="about-star" />
+        <DrawnArtwork name="aboutStar" className="about-star" drawOnVisible />
         {/* <Artwork name="aboutSmallStar" className="about-small-star" /> */}
         <div className="about-paragraphs">
           <p>

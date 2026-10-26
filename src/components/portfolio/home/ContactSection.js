@@ -1,5 +1,6 @@
 import React from "react";
 import Artwork from "../Artwork";
+import DrawnArtwork from "../DrawnArtwork";
 import SocialLinks from "../SocialLinks";
 import ResumeLink from "../ResumeLink";
 import "./ContactSection.css";
@@ -24,12 +25,12 @@ export default function ContactSection() {
         </h2>
         <SocialLinks large />
         <ResumeLink />
-        <Artwork name="contactArrow" className="contact-arrow" />
-        <Artwork name="contactFlower" className="contact-flower" />
-        <Artwork name="contactSmallFlower" className="contact-small-flower" />
-        <Artwork name="contactStar" className="contact-star" />
-        <Artwork name="contactSpark" className="contact-spark" />
-        <Artwork name="contactTick" className="contact-tick" />
+        <DrawnArtwork name="contactArrow" className="contact-arrow" drawOnVisible />
+        <DrawnArtwork name="contactFlower" className="contact-flower" drawOnVisible />
+        <DrawnArtwork name="contactSmallFlower" className="contact-small-flower" drawOnVisible />
+        <DrawnArtwork name="contactStar" className="contact-star" drawOnVisible />
+        <DrawnArtwork name="contactSpark" className="contact-spark" drawOnVisible />
+        <DrawnArtwork name="contactTick" className="contact-tick" drawOnVisible />
       </div>
     </footer>
   );
