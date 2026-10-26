@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="visible" style="display: block;" width="63.5537" height="85.6368" viewBox="0 0 63.5537 85.6368" fill="none">
+<g mask="url(#draw-reveal)"><path id="Vector 147" d="M6.4962 44.5169C5.15926 44.5541 3.86688 44.4452 2.65643 44.2275C2.41406 44.1839 2.46901 43.9063 2.71349 43.9358C3.85218 44.0734 5.1278 44.2409 6.4962 44.5169ZM6.4962 44.5169C16.193 44.2472 28.2344 36.2936 28.3675 6.44836M6.4962 44.5169C15.1806 46.2685 27.6021 52.3895 32.4759 82.9668C32.5131 83.2 32.8717 83.1908 32.8965 82.9559C36.9605 44.4004 47.962 43.5468 60.9333 37.4933C61.1261 37.4033 61.0616 37.1178 60.8489 37.1188C43.7862 37.1965 29.8951 39.2285 28.3675 6.44836M28.3675 6.44836C28.3764 4.43853 28.3314 2.32942 28.228 0.116695C28.228 2.35976 28.2752 4.46762 28.3675 6.44836Z" stroke-width="5" stroke-linecap="round" stroke="#F1B876" />
+</g><defs><mask id="draw-reveal" maskUnits="userSpaceOnUse" x="-16" y="-16" width="95.55369999999999" height="117.6368" style="mask-type: luminance"><path d="M6.4962 44.5169C5.15926 44.5541 3.86688 44.4452 2.65643 44.2275C2.41406 44.1839 2.46901 43.9063 2.71349 43.9358C3.85218 44.0734 5.1278 44.2409 6.4962 44.5169Z" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 80.00ms; --draw-duration: 19.55ms;" /><path d="M6.4962 44.5169C16.193 44.2472 28.2344 36.2936 28.3675 6.44836" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 99.55ms; --draw-duration: 115.82ms;" /><path d="M6.4962 44.5169C15.1806 46.2685 27.6021 52.3895 32.4759 82.9668C32.5131 83.2 32.8717 83.1908 32.8965 82.9559C36.9605 44.4004 47.962 43.5468 60.9333 37.4933C61.1261 37.4033 61.0616 37.1178 60.8489 37.1188C43.7862 37.1965 29.8951 39.2285 28.3675 6.44836" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 215.37ms; --draw-duration: 384.48ms;" /><path d="M28.3675 6.44836C28.3764 4.43853 28.3314 2.32942 28.228 0.116695C28.228 2.35976 28.2752 4.46762 28.3675 6.44836Z" fill="none" stroke="white" stroke-width="15.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="drawing-stroke" style="--draw-delay: 599.84ms; --draw-duration: 30.16ms;" /></mask></defs><style>
+@media (prefers-reduced-motion: no-preference) {
+  .drawing-stroke {
+    stroke-dasharray: 1;
+    animation: draw-stroke var(--draw-duration) linear var(--draw-delay) both;
+  }
+}
+@keyframes draw-stroke {
+  0% { stroke-dashoffset: 1; opacity: 0; }
+  1% { opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 1; }
+}
+</style></svg>

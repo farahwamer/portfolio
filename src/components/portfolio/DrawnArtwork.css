@@ -1,0 +1,7 @@
+/* Keep the reserved space while waiting for a drawing to enter the viewport.
+   Reduced-motion visitors see the complete static artwork immediately. */
+@media (prefers-reduced-motion: no-preference) {
+  .drawing-pending {
+    visibility: hidden;
+  }
+}

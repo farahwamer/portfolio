@@ -1,0 +1,6 @@
+/* Defaults must yield to the section classes regardless of import order. */
+:where(.original-art) {
+  position: relative;
+  width: 100%;
+  pointer-events: none;
+}

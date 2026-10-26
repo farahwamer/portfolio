@@ -1,18 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+.portfolio-site {
+  overflow: clip;
+  font-stretch: condensed;
+  font-weight: 300;
 }
-
-.home-container {
-  width: 100vw;
-  /* height: 200vh; */
-  padding: 4rem 5rem;
+.portfolio-site strong {
+  font-weight: 700;
 }
-
-@media screen and (max-width: 500px) {
-  .home-container {
-    padding: 3rem 2rem;
-  }
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: -5rem;
+  z-index: 10;
+  background: var(--color-paper);
+  padding: 1rem;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+.portfolio-site h2 {
+  font-size: var(--text-section);
+}
+.section-eyebrow {
+  font-size: clamp(1rem, 1.4vw, 1.5rem);
+  font-style: italic;
+  color: var(--color-ink-soft);
 }

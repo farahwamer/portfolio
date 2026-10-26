@@ -1,0 +1,27 @@
+/* Content keeps its layout space and remains available to assistive technology.
+   Reduced-motion visitors get the ordinary, fully visible layout. */
+@media (prefers-reduced-motion: no-preference) {
+  .section-reveal[data-reveal-state="pending"] {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  .section-reveal[data-reveal-state="visible"] {
+    animation: portfolio-section-reveal 500ms var(--motion-ease) both;
+  }
+  .section-reveal:focus-within {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}
+
+@keyframes portfolio-section-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

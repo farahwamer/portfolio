@@ -1,48 +1,20 @@
 import React from "react";
+import HeroSection from "../../components/portfolio/home/HeroSection";
+import AboutSection from "../../components/portfolio/home/AboutSection";
+import ExperienceSection from "../../components/portfolio/home/ExperienceSection";
+import ContactSection from "../../components/portfolio/home/ContactSection";
 import "./Home.css";
-import Dictionary from "../../components/home/Dictionary.js";
-import Accordion from "../../components/home//Accordion.js";
-import Link from "../../components/home/Link.js";
 
-const Home = () => {
-  const linkInfo = [
-    {
-      url: "file:///Users/me/Documents/resume.pdf",
-      title: "Resume",
-      text: "Check out Farah’s qualifications and work experience!",
-      link: "/assets/Farah-Amer-Resume.pdf",
-    },
-    {
-      url: "https://www.linkedin.com > farah-amer",
-      title: "LinkedIn | Farah Amer - Queen's University ...",
-      text: "View Farah Amer's profile on LinkedIn, the world's largest professional community. Farah has 4 jobs listed on their profile. See the complete profile on LinkedIn ...",
-      link: "https://www.linkedin.com/in/farah-amer/",
-    },
-    {
-      url: "https://github.com > farahwamer",
-      title: "Github | @farahwamer",
-      text: "farahwamer has 4 repositories available. Follow their code on Github.",
-      link: "https://github.com/farahwamer",
-    },
-  ];
-
+export default function Home() {
   return (
-    <div className="home-container">
-      <Dictionary />
-      <Accordion />
-      {linkInfo.map((obj) => {
-        return (
-          <Link
-            url={obj.url}
-            title={obj.title}
-            text={obj.text}
-            link={obj.link}
-            key={obj.title}
-          />
-        );
-      })}
-    </div>
+    <main className="portfolio-site" id="top">
+      <a className="skip-link" href="#about">
+        Skip to content
+      </a>
+      <HeroSection />
+      <AboutSection />
+      <ExperienceSection />
+      <ContactSection />
+    </main>
   );
-};
-
-export default Home;
+}

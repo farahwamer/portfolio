@@ -1,0 +1,116 @@
+
+.contact-section {
+  position: relative;
+  padding-top: 9rem;
+  padding-bottom: 10rem;
+  margin-top: 3rem;
+}
+.contact-content {
+  position: relative;
+}
+.contact-content .social-links {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contact-content .social-links img {
+  width: 54px;
+  height: 54px;
+}
+.footer-grid {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+.footer-grid > .original-art {
+  position: absolute;
+  width: max(100%, 1080px);
+  left: 0;
+  bottom: 0;
+}
+.footer-grid > .original-art:nth-child(2) {
+  bottom: 0;
+}
+.footer-grid > .original-art:nth-child(3) {
+  width: max(125%, 1350px);
+  bottom: -20px;
+  left: -20%;
+}
+.contact-arrow {
+  position: absolute;
+  width: 135px;
+  top: -3rem;
+  left: 440px;
+}
+.contact-flower {
+  position: absolute;
+  width: 85px;
+  left: 63%;
+  bottom: -3rem;
+}
+.contact-small-flower {
+  position: absolute;
+  width: 45px;
+  left: 40%;
+  bottom: -1rem;
+}
+.contact-star {
+  position: absolute;
+  width: 40px;
+  left: 76%;
+  bottom: 6rem;
+}
+.contact-spark {
+  position: absolute;
+  width: 40px;
+  left: -60px;
+  top: 0;
+}
+.contact-tick {
+  position: absolute;
+  width: 20px;
+  left: -65px;
+  top: 50px;
+}
+@media (max-width: 64rem) {
+  .contact-spark {
+    left: -20px;
+    top: -40px;
+  }
+  .contact-tick {
+    left: -15px;
+    top: 20px;
+  }
+}
+@media (max-width: 48rem) {
+  .contact-section {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    margin-top: 0;
+  }
+  .contact-arrow {
+    width: 75px;
+    left: auto;
+    right: 10px;
+    top: -4.5rem;
+  }
+  .contact-small-flower {
+    left: 70%;
+    bottom: 1rem;
+    width: 35px;
+  }
+  .contact-flower {
+    left: auto;
+    right: 20px;
+    bottom: -4rem;
+    width: 60px;
+  }
+  .contact-star {
+    left: auto;
+    right: 0;
+    bottom: 7rem;
+    width: 25px;
+  }
+}
+

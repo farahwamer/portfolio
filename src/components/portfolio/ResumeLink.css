@@ -1,0 +1,44 @@
+.portfolio-site .resume-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.8rem 1.25rem;
+  border-radius: var(--radius-button);
+  background: var(--color-blue);
+  color: var(--color-paper);
+  font: 400 1rem var(--font-body);
+  text-decoration: none;
+}
+
+.portfolio-site .resume-link {
+  box-shadow: 0 2px 0 rgba(24, 44, 69, 0.16);
+  transition:
+    background-color var(--motion-fast) ease,
+    box-shadow var(--motion-fast) ease,
+    transform var(--motion-fast) var(--motion-ease);
+}
+.resume-link img {
+  transition: transform var(--motion-fast) var(--motion-ease);
+}
+.portfolio-site .resume-link:focus-visible {
+  background-color: var(--color-ink);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(24, 44, 69, 0.16);
+}
+@media (hover: hover) and (pointer: fine) {
+  .portfolio-site .resume-link:hover {
+    background-color: var(--color-ink);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(24, 44, 69, 0.16);
+  }
+  .resume-link:hover img { transform: translateY(2px); }
+}
+.portfolio-site .resume-link:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 1px 0 rgba(24, 44, 69, 0.16);
+}
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-site .resume-link:is(:hover, :focus-visible, :active),
+  .resume-link:hover img { transform: none; }
+}
