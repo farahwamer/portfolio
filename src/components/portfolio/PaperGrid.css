@@ -1,0 +1,24 @@
+
+.paper-grid {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: max(100%, 1080px);
+  height: 100%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  z-index: -1;
+}
+.paper-grid > .original-art {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.paper-grid > .original-art:nth-child(2) {
+  top: 4.57vw;
+}
+.paper-grid > .original-art:nth-child(3) {
+  width: 107%;
+  left: -1%;
+  top: 3.7vw;
+}

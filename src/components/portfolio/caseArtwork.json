@@ -1,0 +1,1432 @@
+{
+  "caseGridFade": {
+    "x": -16,
+    "y": 64,
+    "w": 1846,
+    "h": 1200,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "height": "1200px",
+          "left": "-16px",
+          "top": "64px",
+          "width": "1846px"
+        },
+        "data-node-id": "2001:1134"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "inset": "-7.82% -5.08%"
+            }
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "alt": "",
+                "style": {
+                  "display": "block",
+                  "maxWidth": "none",
+                  "width": "100%",
+                  "height": "100%"
+                },
+                "src": "/assets/figma/case-grid-cream-fade-top.svg"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "underwritingDependencies": {
+    "x": 1166,
+    "y": 2496,
+    "w": 232.455,
+    "h": 393.647,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "height": "393.647px",
+          "left": "1166px",
+          "top": "2496px",
+          "width": "232.455px"
+        },
+        "data-node-id": "2001:1164"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "inset": "-3.81% -6.47% -3.81% -6.45%"
+            }
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "alt": "",
+                "style": {
+                  "display": "block",
+                  "maxWidth": "none",
+                  "width": "100%",
+                  "height": "100%"
+                },
+                "src": "/assets/figma/underwriting-agent-dependencies.svg"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "underwritingReliability": {
+    "x": 125,
+    "y": 2978,
+    "w": 488,
+    "h": 230,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "contents",
+          "left": "125px",
+          "top": "2978px"
+        },
+        "data-node-id": "2001:1179"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "height": "27.571px",
+              "left": "256px",
+              "top": "3033px",
+              "width": "23.452px"
+            },
+            "data-node-id": "2001:1180"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "inset": "-54.41% -63.96% -54.41% -63.94%"
+                }
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "style": {
+                      "display": "block",
+                      "maxWidth": "none",
+                      "width": "100%",
+                      "height": "100%"
+                    },
+                    "src": "/assets/figma/underwriting-queued-task.svg"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "height": "27.571px",
+              "left": "348px",
+              "top": "3033px",
+              "width": "23.452px"
+            },
+            "data-node-id": "2001:1181"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "inset": "-54.41% -63.96% -54.41% -63.94%"
+                }
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "style": {
+                      "display": "block",
+                      "maxWidth": "none",
+                      "width": "100%",
+                      "height": "100%"
+                    },
+                    "src": "/assets/figma/underwriting-queued-task.svg"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "height": "27.571px",
+              "left": "440px",
+              "top": "3033px",
+              "width": "23.452px"
+            },
+            "data-node-id": "2001:1182"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "inset": "-54.41% -63.96% -54.41% -63.94%"
+                }
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "style": {
+                      "display": "block",
+                      "maxWidth": "none",
+                      "width": "100%",
+                      "height": "100%"
+                    },
+                    "src": "/assets/figma/underwriting-queued-task.svg"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "height": "27.571px",
+              "left": "532px",
+              "top": "3030px",
+              "width": "23.452px"
+            },
+            "data-node-id": "2001:1183"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "inset": "-54.41% -63.96% -54.41% -63.94%"
+                }
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "style": {
+                      "display": "block",
+                      "maxWidth": "none",
+                      "width": "100%",
+                      "height": "100%"
+                    },
+                    "src": "/assets/figma/underwriting-final-queued-task.svg"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "height": "55.5px",
+              "left": "156px",
+              "top": "3019.5px",
+              "width": "51px"
+            },
+            "data-node-id": "2001:1184"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "alt": "",
+                "style": {
+                  "position": "absolute",
+                  "display": "block",
+                  "inset": 0,
+                  "maxWidth": "none",
+                  "width": "100%",
+                  "height": "100%"
+                },
+                "height": "55.5",
+                "src": "/assets/figma/underwriting-retry-task.png",
+                "width": "51"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "height": "87px",
+              "left": "182px",
+              "top": "3075px",
+              "width": "357.5px"
+            },
+            "data-node-id": "2001:1185"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "inset": "-3.45% -0.84% -3.45% -6.18%"
+                }
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "style": {
+                      "display": "block",
+                      "maxWidth": "none",
+                      "width": "100%",
+                      "height": "100%"
+                    },
+                    "src": "/assets/figma/underwriting-retry-loop.svg"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "fontFamily": "\"Open Sans\", sans-serif",
+              "fontWeight": 400,
+              "lineHeight": "normal",
+              "left": "306px",
+              "color": "#885110",
+              "fontSize": "16px",
+              "top": "3176px",
+              "whiteSpace": "nowrap"
+            },
+            "data-node-id": "2001:1186"
+          },
+          "children": [
+            "⚠️ Error: Retrying"
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "borderWidth": 6,
+              "borderColor": "#182c45",
+              "borderStyle": "dashed",
+              "height": "133px",
+              "left": "125px",
+              "borderRadius": "25px",
+              "top": "2978px",
+              "width": "488px"
+            },
+            "data-node-id": "2001:1187"
+          },
+          "children": []
+        }
+      ]
+    }
+  },
+  "underwritingHeroFlower": {
+    "x": 1191,
+    "y": 339,
+    "w": 105.139,
+    "h": 89.001,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "89.001px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "1191px",
+          "top": "339px",
+          "width": "105.139px"
+        },
+        "data-node-id": "2001:1188"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "scaleY(-1) rotate(90deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "105.139px",
+                  "position": "relative",
+                  "width": "89.001px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-2.86% -3.37%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/underwriting-hero-pink-flower.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "underwritingHeroSpark": {
+    "x": 536,
+    "y": 282,
+    "w": 29,
+    "h": 40,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "40px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "536px",
+          "top": "282px",
+          "width": "29px"
+        },
+        "data-node-id": "2001:1191"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "rotate(180deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "40px",
+                  "position": "relative",
+                  "width": "29px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-0.29% -6.31% -2.6% -0.76%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/case-small-orange-sparkle.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "underwritingHeroLargeSpark": {
+    "x": 492,
+    "y": 339,
+    "w": 51,
+    "h": 71,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "71px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "492px",
+          "top": "339px",
+          "width": "51px"
+        },
+        "data-node-id": "2001:1192"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "rotate(180deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "71px",
+                  "position": "relative",
+                  "width": "51px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-0.16% -3.61% -1.41% -0.5%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/underwriting-hero-orange-sparkle.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wealthHeroSpark": {
+    "x": 1042,
+    "y": 441,
+    "w": 29,
+    "h": 40,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "40px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "1042px",
+          "top": "441px",
+          "width": "29px"
+        },
+        "data-node-id": "2001:1476"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "rotate(180deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "40px",
+                  "position": "relative",
+                  "width": "29px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-0.29% -6.31% -2.6% -0.76%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/case-small-orange-sparkle.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wealthHeroTwinSpark": {
+    "x": 1071,
+    "y": 444,
+    "w": 53,
+    "h": 73,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "73px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "1071px",
+          "top": "444px",
+          "width": "53px"
+        },
+        "data-node-id": "2001:1477"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "scaleY(-1)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "73px",
+                  "position": "relative",
+                  "width": "53px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-0.16% -3.45% -1.4% -0.44%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/wealth-twin-orange-sparkles.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wealthHeroSmallStar": {
+    "x": 404,
+    "y": 359,
+    "w": 113.653,
+    "h": 110.225,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "110.225px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "404px",
+          "top": "359px",
+          "width": "113.653px"
+        },
+        "data-node-id": "2001:1483"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "rotate(16deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "88px",
+                  "position": "relative",
+                  "width": "93px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-6.7% -6.34%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/case-hero-small-blue-starburst.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wealthHeroStar": {
+    "x": 999,
+    "y": 39,
+    "w": 212.284,
+    "h": 205.079,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "205.079px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "999px",
+          "top": "39px",
+          "width": "212.284px"
+        },
+        "data-node-id": "2001:1484"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "rotate(-13deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "169.193px",
+                  "position": "relative",
+                  "width": "178.806px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-3.49% -3.3%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/wealth-hero-blue-starburst.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wealthDeployment": {
+    "x": 1098,
+    "y": 2564,
+    "w": 335.139,
+    "h": 290.161,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "contents",
+          "left": "1098px",
+          "top": "2564px"
+        },
+        "data-node-id": "2001:1485"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "height": "290.161px",
+              "left": "1098px",
+              "top": "2564px",
+              "width": "335.139px"
+            },
+            "data-node-id": "2001:1486"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "inset": "-1.72% -1.07% 0 -1.49%"
+                }
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "style": {
+                      "display": "block",
+                      "maxWidth": "none",
+                      "width": "100%",
+                      "height": "100%"
+                    },
+                    "src": "/assets/figma/wealth-deployment-cloud.svg"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "height": "106.645px",
+              "left": "1213.16px",
+              "top": "2636.44px",
+              "width": "106.995px"
+            },
+            "data-node-id": "2001:1496"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "alt": "",
+                "style": {
+                  "position": "absolute",
+                  "display": "block",
+                  "inset": 0,
+                  "maxWidth": "none",
+                  "width": "100%",
+                  "height": "100%"
+                },
+                "src": "/assets/figma/wealth-deployment-gear.svg"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meetingHeroFlower": {
+    "x": 451,
+    "y": 236,
+    "w": 105.139,
+    "h": 89.002,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "89.002px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "451px",
+          "top": "236px",
+          "width": "105.139px"
+        },
+        "data-node-id": "2001:1252"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "scaleY(-1) rotate(90deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "105.139px",
+                  "position": "relative",
+                  "width": "89.002px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-2.86% -3.37%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/meeting-hero-pink-flower.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meetingHeroRightStar": {
+    "x": 1182,
+    "y": 374,
+    "w": 59,
+    "h": 72,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "height": "72px",
+          "left": "1182px",
+          "top": "374px",
+          "width": "59px"
+        },
+        "data-node-id": "2001:1260"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "inset": "-6.25% -7.63%"
+            }
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "alt": "",
+                "style": {
+                  "display": "block",
+                  "maxWidth": "none",
+                  "width": "100%",
+                  "height": "100%"
+                },
+                "src": "/assets/figma/case-contact-orange-starburst.svg"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meetingHeroLeftStar": {
+    "x": 451,
+    "y": 465,
+    "w": 59,
+    "h": 72,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "height": "72px",
+          "left": "451px",
+          "top": "465px",
+          "width": "59px"
+        },
+        "data-node-id": "2001:1261"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "position": "absolute",
+              "inset": "-6.25% -7.63%"
+            }
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "alt": "",
+                "style": {
+                  "display": "block",
+                  "maxWidth": "none",
+                  "width": "100%",
+                  "height": "100%"
+                },
+                "src": "/assets/figma/case-contact-orange-starburst.svg"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "enterpriseHeroOrangeFlower": {
+    "x": 373,
+    "y": 442,
+    "w": 105.139,
+    "h": 89.001,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "89.001px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "373px",
+          "top": "442px",
+          "width": "105.139px"
+        },
+        "data-node-id": "2001:1322"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "scaleY(-1) rotate(90deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "105.139px",
+                  "position": "relative",
+                  "width": "89.001px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-2.86% -3.37%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/enterprise-hero-orange-flower.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "enterpriseHeroPinkFlower": {
+    "x": 1141,
+    "y": 207,
+    "w": 105.139,
+    "h": 89.001,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "89.001px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "1141px",
+          "top": "207px",
+          "width": "105.139px"
+        },
+        "data-node-id": "2001:1325"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "scaleY(-1) rotate(90deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "105.139px",
+                  "position": "relative",
+                  "width": "89.001px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-2.86% -3.37%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/enterprise-hero-pink-flower.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "apexHeroOrangeFlower": {
+    "x": 1194,
+    "y": 237,
+    "w": 105.139,
+    "h": 89.001,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "89.001px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "1194px",
+          "top": "237px",
+          "width": "105.139px"
+        },
+        "data-node-id": "2001:1394"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "scaleY(-1) rotate(90deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "105.139px",
+                  "position": "relative",
+                  "width": "89.001px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-2.86% -3.37%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/apex-hero-orange-flower.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "apexHeroStar": {
+    "x": 303,
+    "y": 355,
+    "w": 160.41,
+    "h": 155.571,
+    "tree": {
+      "tag": "div",
+      "props": {
+        "style": {
+          "position": "absolute",
+          "display": "flex",
+          "height": "155.571px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": "303px",
+          "top": "355px",
+          "width": "160.41px"
+        },
+        "data-node-id": "2001:1402"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "style": {
+              "flex": "none",
+              "transform": "rotate(16deg)"
+            }
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "style": {
+                  "height": "124.203px",
+                  "position": "relative",
+                  "width": "131.259px"
+                }
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "style": {
+                      "position": "absolute",
+                      "inset": "-4.75% -4.49%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "style": {
+                          "display": "block",
+                          "maxWidth": "none",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "/assets/figma/apex-hero-blue-starburst.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

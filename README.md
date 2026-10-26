@@ -21,5 +21,10 @@ React portfolio based on the illustrated Figma design.
 - `src/assets/farah-portrait.svg` is the About portrait.
 - `public/assets/figma/` contains locally stored Figma artwork.
 
-The homepage is implemented. Case-study pages and animation are planned next.
+The homepage and all five case studies are implemented, with entrance,
+scroll-reveal, and doodle animations. Project URLs use `/#/projects/<project-id>`
+so direct links and refreshes work on static hosting without server rewrites.
+Case-study content is in `src/data/caseStudies.json`; the shared layout and
+page components are in `src/pages/case-studies/` and
+`src/components/portfolio/case-studies/`.
 The resume PDF and active favicon live in `public/assets/`.

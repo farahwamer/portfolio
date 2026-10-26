@@ -5,11 +5,6 @@
   gap: 1rem;
   font-size: 1.375rem;
   font-weight: 700;
-  cursor: pointer;
-  text-decoration: underline;
-  &:hover {
-    color: var(--color-blue);
-  }
 }
 .project-arrow {
   align-self: center;
@@ -40,8 +35,32 @@
 }
 /* Separate entries with quiet rules and equal breathing room. */
 .project-summary {
+  scroll-margin-top: var(--space-8);
   padding-block: clamp(1.5rem, 3vw, 2.5rem);
 }
 .project-summary + .project-summary {
   border-top: 1px solid rgba(24, 44, 69, 0.18);
+}
+
+.project-summary .project-title-link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 1rem;
+  max-width: 100%;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 1px;
+  transition: color var(--motion-fast) ease;
+}
+.project-title-link > span { min-width: 0; }
+.project-title-link .project-arrow { transition: transform var(--motion-fast) var(--motion-ease); }
+.project-summary .project-title-link:focus-visible { color: var(--color-blue); text-decoration-color: var(--color-pink); }
+.project-title-link:focus-visible .project-arrow { transform: translate(2px, -2px); }
+@media (hover: hover) and (pointer: fine) {
+  .project-summary .project-title-link:hover { color: var(--color-blue); text-decoration-color: var(--color-pink); }
+  .project-title-link:hover .project-arrow { transform: translate(2px, -2px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-title-link:is(:hover, :focus-visible) .project-arrow { transform: none; }
 }

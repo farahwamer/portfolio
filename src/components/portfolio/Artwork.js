@@ -1,5 +1,6 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import artwork from "./artwork.json";
+import caseArtwork from "./caseArtwork.json";
 import "./Artwork.css";
 
 function Layer({ node, assetOverrides }) {
@@ -12,9 +13,11 @@ function Layer({ node, assetOverrides }) {
     props,
     node.tag === "img"
       ? undefined
-      : node.children.map((child, i) => (
-          <Layer key={i} node={child} assetOverrides={assetOverrides} />
-        )),
+      : node.children.map((child, i) =>
+          typeof child === "string" ? child : (
+            <Layer key={i} node={child} assetOverrides={assetOverrides} />
+          ),
+        ),
   );
 }
 
@@ -29,7 +32,7 @@ export default function Artwork({
 }) {
   const ref = useRef(null);
   const [scale, setScale] = useState(1);
-  const art = artwork[name];
+  const art = artwork[name] || caseArtwork[name];
   useLayoutEffect(() => {
     const observer = new ResizeObserver(([entry]) =>
       setScale(entry.contentRect.width / art.w),

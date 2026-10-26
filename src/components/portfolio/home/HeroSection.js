@@ -1,5 +1,5 @@
 import React from "react";
-import Artwork from "../Artwork";
+import PaperGrid from "../PaperGrid";
 import DrawnArtwork from "../DrawnArtwork";
 import { socials, resume } from "../../../data/portfolioLinks";
 import "./HeroSection.css";
@@ -7,11 +7,7 @@ import "./HeroSection.css";
 export default function HeroSection() {
   return (
     <section className="hero" aria-labelledby="hero-name">
-      <div className="paper-grid" aria-hidden="true">
-        <Artwork name="gridVertical" />
-        <Artwork name="gridHorizontal" />
-        <Artwork name="gridFade" />
-      </div>
+      <PaperGrid />
       <div className="hero-content">
         <p className="hero-eyebrow">Equal parts creativity and code.</p>
         <div className="hero-signature">
