@@ -269,6 +269,7 @@
   justify-content: space-between;
   gap: 2rem;
   position: relative;
+  width: 80%;
 }
 .experience-heading h3 {
   font-size: clamp(1.25rem, 1.6vw, 1.65rem);
@@ -316,11 +317,12 @@
 .role-history li:first-child::after {
   content: "";
   position: absolute;
-  width: 1px;
-  background: var(--color-ink);
-  left: -1.35rem;
-  top: 1.3em;
   bottom: 0;
+  left: -1.25rem;
+  top: 1.7em;
+  width: 1.5px;
+  border-radius: 10%;
+  background: #dfd0b8;
 }
 .experience-prose {
   max-width: 65ch;
@@ -665,10 +667,7 @@
 .role-history li::before {
   display: none;
 }
-.role-history li:first-child::after {
-  left: -1.35rem;
-  top: 1.7em;
-}
+
 .role-smile {
   position: absolute;
   width: 22px;

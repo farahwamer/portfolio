@@ -241,8 +241,8 @@ export default function Home() {
           </div>
           <div className="resume-wrap">
             <ResumeLink />
-            <Artwork name="resumeUnderline" className="resume-underline" />
-            <Artwork name="resumeMarks" className="resume-marks" />
+            {/* <Artwork name="resumeUnderline" className="resume-underline" /> */}
+            {/* <Artwork name="resumeMarks" className="resume-marks" /> */}
           </div>
         </header>
         <Experience
@@ -283,14 +283,14 @@ export default function Home() {
             ))}
           </div>
         </Experience>
-        <aside className="department-note">
+        {/* <aside className="department-note">
           <Artwork name="departmentArrow" />
           <p>
             Same team as above,
             <br />
             new department!
           </p>
-        </aside>
+        </aside> */}
         <Experience
           title="Royal Bank of Canada | Data & Analytics"
           dates="05/2023 – 08/2023"
