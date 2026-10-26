@@ -1,4 +1,5 @@
 import React from "react";
+import Reveal from "../Reveal";
 import farahPortrait from "../../../assets/farah-portrait.svg";
 import DrawnArtwork from "../DrawnArtwork";
 import SocialLinks from "../SocialLinks";
@@ -6,7 +7,8 @@ import "./AboutSection.css";
 
 export default function AboutSection() {
   return (
-    <section
+    <Reveal
+      as="section"
       id="about"
       className="about-section portfolio-container portfolio-section"
       aria-labelledby="about-heading"
@@ -45,6 +47,6 @@ export default function AboutSection() {
         </div>
         <SocialLinks />
       </div>
-    </section>
+    </Reveal>
   );
 }

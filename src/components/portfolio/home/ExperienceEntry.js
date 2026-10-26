@@ -1,5 +1,5 @@
 import React from "react";
-import Artwork from "../Artwork";
+import Reveal from "../Reveal";
 
 export default function ExperienceEntry({
   title,
@@ -8,12 +8,12 @@ export default function ExperienceEntry({
   className = "",
 }) {
   return (
-    <article className={`experience-entry ${className}`}>
+    <Reveal as="article" className={`experience-entry ${className}`}>
       <div className="experience-heading">
         <h3>{title}</h3>
         <p className="experience-dates">{dates}</p>
       </div>
       {children}
-    </article>
+    </Reveal>
   );
 }

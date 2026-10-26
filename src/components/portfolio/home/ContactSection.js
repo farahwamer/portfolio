@@ -1,4 +1,5 @@
 import React from "react";
+import Reveal from "../Reveal";
 import Artwork from "../Artwork";
 import DrawnArtwork from "../DrawnArtwork";
 import SocialLinks from "../SocialLinks";
@@ -16,7 +17,7 @@ export default function ContactSection() {
         <Artwork name="gridHorizontal" />
         <Artwork name="footerFade" />
       </div>
-      <div className="portfolio-container contact-content">
+      <Reveal className="portfolio-container contact-content">
         <p className="section-eyebrow">
           Now that we’ve gotten to know each other
         </p>
@@ -31,7 +32,7 @@ export default function ContactSection() {
         <DrawnArtwork name="contactStar" className="contact-star" drawOnVisible />
         <DrawnArtwork name="contactSpark" className="contact-spark" drawOnVisible />
         <DrawnArtwork name="contactTick" className="contact-tick" drawOnVisible />
-      </div>
+      </Reveal>
     </footer>
   );
 }

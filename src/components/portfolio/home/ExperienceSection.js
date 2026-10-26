@@ -1,4 +1,5 @@
 import React from "react";
+import Reveal from "../Reveal";
 import Artwork from "../Artwork";
 import ResumeLink from "../ResumeLink";
 import ExperienceEntry from "./ExperienceEntry";
@@ -13,7 +14,7 @@ export default function ExperienceSection() {
       className="experience-section portfolio-container portfolio-section"
       aria-labelledby="experience-heading"
     >
-      <header className="section-header">
+      <Reveal as="header" className="section-header">
         <div>
           <p className="section-eyebrow">
             But enough about my hobbies, let's talk about
@@ -27,7 +28,7 @@ export default function ExperienceSection() {
           {/* <Artwork name="resumeUnderline" className="resume-underline" /> */}
           {/* <Artwork name="resumeMarks" className="resume-marks" /> */}
         </div>
-      </header>
+      </Reveal>
       <div className="experience-content">
         <ExperienceEntry
           title="Royal Bank of Canada | Borealis AI Group"
