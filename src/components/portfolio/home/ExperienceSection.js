@@ -34,9 +34,6 @@ export default function ExperienceSection() {
           title="Royal Bank of Canada | Borealis AI Group"
           dates="05/2024 – 10/2026"
         >
-          <p className="layoff-note">
-            * Impacted by mass Q3 layoff which was not based on performance
-          </p>
           <ol className="role-history">
             <li>
               <Artwork name="roleSmile" className="role-smile" />

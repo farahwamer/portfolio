@@ -63,12 +63,7 @@
   top: 8px; */
   width: 150px;
 }
-.layoff-note {
-  font-family: var(--font-body);
-  font-size: 1rem;
-  color: var(--color-link);
-  margin-top: 0;
-}
+
 .role-history {
   list-style: none;
   padding-left: 2rem;
