@@ -1,5 +1,7 @@
 import React from "react";
 import Artwork from "../Artwork";
+import DrawnArtwork from "../DrawnArtwork";
+import Entrance from "../Entrance";
 import PaperGrid from "../PaperGrid";
 import BackToExperience from "./BackToExperience";
 
@@ -36,21 +38,32 @@ export default function CaseStudyHeader({ study, project }) {
       <PaperGrid fadeArtwork="caseGridFade" />
       <div className="portfolio-container">
         <div className="case-study-heading">
-          <h1 id="case-study-title" tabIndex="-1">{study.title}</h1>
-          <p className="case-study-description">{study.description}</p>
-          <div
+          <Entrance as="h1" id="case-study-title" tabIndex="-1">
+            {study.title}
+          </Entrance>
+          <Entrance as="p" stage="description" className="case-study-description">
+            {study.description}
+          </Entrance>
+          <Entrance
+            stage="details"
             className="case-study-stack"
             style={{ width: project.width * 1.2 }}
             role="img"
             aria-label={project.technologies}
           >
             <Artwork name={project.stack} />
-          </div>
+          </Entrance>
           {decorations[study.id].map(([name, className]) => (
-            <Artwork key={name} name={name} className={`case-doodle ${className}`} />
+            <DrawnArtwork
+              key={name}
+              name={name}
+              className={`case-doodle ${className}`}
+            />
           ))}
         </div>
-        <BackToExperience projectId={project.id} />
+        <Entrance stage="details" className="case-header-navigation">
+          <BackToExperience projectId={project.id} />
+        </Entrance>
       </div>
     </header>
   );

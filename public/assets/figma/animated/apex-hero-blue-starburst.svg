@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="visible" style="display: block;" width="143.059" height="136.003" viewBox="0 0 143.059 136.003" fill="none">
+<g id="Vector" filter="url(#filter0_g_0_12)">
+<g mask="url(#star-stroke-mask-1)"><path d="M19.3082 22.3041L71.5297 66.9187M71.5297 66.9187L73.0178 68.19M73.0178 68.19L74.1684 69.173M74.1684 69.173L124.457 112.136" stroke-width="8" stroke-linecap="round" stroke="#66A1D4" id="star-stroke-1" /></g><g mask="url(#star-stroke-mask-2)"><path d="M73.0178 68.19L123.751 24.257M73.0178 68.19L71.8826 69.173M71.8826 69.173L71.5297 69.4785M71.5297 69.4785L20.0139 114.089" stroke-width="8" stroke-linecap="round" stroke="#66A1D4" id="star-stroke-2" /></g><g mask="url(#star-stroke-mask-3)"><path d="M71.5297 66.9187V5.9M71.5297 66.9187V69.173M71.5297 69.4785V69.173M71.5297 69.4785V130.103" stroke-width="8" stroke-linecap="round" stroke="#66A1D4" id="star-stroke-3" /></g><g mask="url(#star-stroke-mask-4)"><path d="M74.1684 69.173H71.8826M74.1684 69.173H137.159M71.8826 69.173H71.5297M71.5297 69.173H5.9" stroke-width="8" stroke-linecap="round" stroke="#66A1D4" id="star-stroke-4" /></g></g>
+<defs>
+<filter id="filter0_g_0_12" x="1.19209e-07" y="1.19209e-07" width="143.059" height="136.003" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix" />
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+<feTurbulence type="fractalNoise" baseFrequency="0.25 0.25" numOctaves="3" seed="6281" />
+<feDisplacementMap in="shape" scale="3.7999999523162842" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect1_texture_0_12">
+<feMergeNode in="displacedImage" />
+</feMerge>
+</filter>
+<mask id="star-stroke-mask-1" maskUnits="userSpaceOnUse" x="-16" y="-16" width="175.059" height="168.003" style="mask-type: luminance"><path d="M13.225704821979186 17.107634623481694 L130.53949517802081 117.3324653765183" fill="none" stroke="white" stroke-width="18.0" stroke-linecap="butt" pathLength="1" class="drawing-stroke" style="--draw-delay: 450.00ms; --draw-duration: 221.39ms;" /></mask><mask id="star-stroke-mask-2" maskUnits="userSpaceOnUse" x="-16" y="-16" width="175.059" height="168.003" style="mask-type: luminance"><path d="M129.79863247174274 19.020002626817273 L13.966267528257259 119.32599737318273" fill="none" stroke="white" stroke-width="18.0" stroke-linecap="butt" pathLength="1" class="drawing-stroke" style="--draw-delay: 671.39ms; --draw-duration: 219.67ms;" /></mask><mask id="star-stroke-mask-3" maskUnits="userSpaceOnUse" x="-16" y="-16" width="175.059" height="168.003" style="mask-type: luminance"><path d="M71.5297 -2.0999999999999996 L71.5297 138.103" fill="none" stroke="white" stroke-width="18.0" stroke-linecap="butt" pathLength="1" class="drawing-stroke" style="--draw-delay: 891.06ms; --draw-duration: 198.82ms;" /></mask><mask id="star-stroke-mask-4" maskUnits="userSpaceOnUse" x="-16" y="-16" width="175.059" height="168.003" style="mask-type: luminance"><path d="M145.159 69.173 L-2.0999999999999996 69.173" fill="none" stroke="white" stroke-width="18.0" stroke-linecap="butt" pathLength="1" class="drawing-stroke" style="--draw-delay: 1089.88ms; --draw-duration: 210.12ms;" /></mask></defs>
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .drawing-stroke {
+    stroke-dasharray: 1;
+    animation: draw-star-stroke var(--draw-duration) linear var(--draw-delay) both;
+  }
+}
+@keyframes draw-star-stroke {
+  0% { stroke-dashoffset: 1; opacity: 0; }
+  1% { opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 1; }
+}
+</style></svg>

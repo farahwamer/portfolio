@@ -8,26 +8,39 @@ import "./CaseStudyPage.css";
 
 export default function CaseStudyPage({ study, project }) {
   return (
-    <main className="portfolio-site case-study" aria-labelledby="case-study-title">
+    <main
+      className="portfolio-site case-study"
+      aria-labelledby="case-study-title"
+    >
       <CaseStudyHeader study={study} project={project} />
       <div className="case-study-body portfolio-container">
-        <Reveal as="section" className="case-study-section" aria-labelledby="case-problem-heading">
+        <Reveal
+          as="section"
+          className="case-study-section"
+          aria-labelledby="case-problem-heading"
+        >
           <h2 id="case-problem-heading">The Problem</h2>
           <CaseStudyContent content={study.problem} />
         </Reveal>
-        <Reveal as="section" className="case-study-section" aria-labelledby="case-solution-heading">
+        <Reveal
+          as="section"
+          className="case-study-section"
+          aria-labelledby="case-solution-heading"
+        >
           <h2 id="case-solution-heading">The Solution</h2>
           <CaseStudyContent content={study.solution} />
         </Reveal>
-        <section className="case-study-section" aria-labelledby="case-highlights-heading">
-          <h2 id="case-highlights-heading">Highlights</h2>
+        <section
+          className="case-study-section"
+          aria-labelledby="case-highlights-heading"
+        >
+          <Reveal as="h2" id="case-highlights-heading">Highlights</Reveal>
           <div className="case-highlights">
-            {study.highlights.map((highlight) => <CaseStudyHighlight key={highlight.title} highlight={highlight} />)}
+            {study.highlights.map((highlight) => (
+              <CaseStudyHighlight key={highlight.title} highlight={highlight} />
+            ))}
           </div>
         </section>
-        <nav className="case-bottom-navigation" aria-label="Return to portfolio">
-          <BackToExperience projectId={project.id} />
-        </nav>
       </div>
     </main>
   );

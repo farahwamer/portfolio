@@ -1,0 +1,23 @@
+/* Match the homepage's entrance timing without moving decorative siblings. */
+@media (prefers-reduced-motion: no-preference) {
+  .entrance-title {
+    --entrance-rise: 12px;
+    animation: portfolio-entrance-rise 850ms var(--motion-ease) both;
+  }
+  .entrance-description {
+    --entrance-rise: 8px;
+    animation: portfolio-entrance-rise 750ms var(--motion-ease) 400ms both;
+  }
+  .entrance-details {
+    animation: portfolio-entrance-fade 650ms ease-out 600ms both;
+  }
+  .entrance-details:focus-within { animation: none; }
+}
+@keyframes portfolio-entrance-rise {
+  from { opacity: 0; transform: translateY(var(--entrance-rise)); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes portfolio-entrance-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
