@@ -246,7 +246,7 @@ export default function Home() {
           </div>
         </header>
         <Experience
-          title="Royal Bank of Canada | Borealis AI Group *"
+          title="Royal Bank of Canada | Borealis AI Group"
           dates="05/2024 – 10/2026"
         >
           <p className="layoff-note">
