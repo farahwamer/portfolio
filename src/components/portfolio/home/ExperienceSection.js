@@ -67,28 +67,32 @@ export default function ExperienceSection() {
             ))}
           </div>
         </ExperienceEntry>
-        {/* <aside className="department-note">
-        <Artwork name="departmentArrow" />
-        <p>
-          Same team as above,
-          <br />
-          new department!
-        </p>
-      </aside> */}
-        <ExperienceEntry
-          title="Royal Bank of Canada | Data & Analytics"
-          dates="05/2023 – 08/2023"
-        >
-          <p className="role-title">Full-Stack Software Developer Co-op</p>
-          <p className="experience-prose">
-            During my Data &amp; Analytics co-op at RBC, I contributed to the
-            bank's enterprise data platform, working across frontend
-            development, backend integrations, and reusable UI components. I
-            also helped develop and pitch an automated scheduling solution to
-            senior bank executives, contributing to its implementation after our
-            team won the business case competition.
-          </p>
-        </ExperienceEntry>
+
+        <div>
+          <aside className="department-note">
+            <Artwork name="departmentArrow" />
+            <p>
+              Same team as above,
+              <br />
+              new department!
+            </p>
+          </aside>
+          <ExperienceEntry
+            title="Royal Bank of Canada | Data & Analytics"
+            dates="05/2023 – 08/2023"
+          >
+            <p className="role-title">Full-Stack Software Developer Co-op</p>
+            <p className="experience-prose">
+              During my Data &amp; Analytics co-op at RBC, I contributed to the
+              bank's enterprise data platform, working across frontend
+              development, backend integrations, and reusable UI components. I
+              also helped develop and pitch an automated scheduling solution to
+              senior bank executives, contributing to its implementation after
+              our team won the business case competition.
+            </p>
+          </ExperienceEntry>
+        </div>
+
         <ExperienceEntry
           title="Royal Bank of Canada | Amplify"
           dates="05/2022 – 08/2022"
