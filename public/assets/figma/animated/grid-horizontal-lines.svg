@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="visible" style="display: block;" width="1741" height="436" viewBox="0 0 1741 436" fill="none">
+<g id="Group 169">
+<path id="Vector 67" d="M2 434L1739 434" stroke-width="4" stroke-linecap="round" stroke="#1B72BE" pathLength="1" class="grid-drawing-line" style="--grid-delay: 325ms; --grid-duration: 450ms; --grid-offset: -1;" />
+<path id="Vector 68" d="M2 347L1739 347" stroke-width="4" stroke-linecap="round" stroke="#1B72BE" pathLength="1" class="grid-drawing-line" style="--grid-delay: 280ms; --grid-duration: 450ms; --grid-offset: 1;" />
+<path id="Vector 69" d="M2 262L1739 262" stroke-width="4" stroke-linecap="round" stroke="#1B72BE" pathLength="1" class="grid-drawing-line" style="--grid-delay: 235ms; --grid-duration: 450ms; --grid-offset: -1;" />
+<path id="Vector 73" d="M2 175L1739 175" stroke-width="4" stroke-linecap="round" stroke="#1B72BE" pathLength="1" class="grid-drawing-line" style="--grid-delay: 190ms; --grid-duration: 450ms; --grid-offset: 1;" />
+<path id="Vector 74" d="M2 89L1739 89" stroke-width="4" stroke-linecap="round" stroke="#1B72BE" pathLength="1" class="grid-drawing-line" style="--grid-delay: 145ms; --grid-duration: 450ms; --grid-offset: -1;" />
+<path id="Vector 75" d="M2 2L1739 2" stroke-width="4" stroke-linecap="round" stroke="#1B72BE" pathLength="1" class="grid-drawing-line" style="--grid-delay: 100ms; --grid-duration: 450ms; --grid-offset: 1;" />
+</g>
+<style>
+/* Draw each existing line independently; show the complete grid by default. */
+@media (prefers-reduced-motion: no-preference) {
+  .grid-drawing-line {
+    stroke-dasharray: 1;
+    animation: draw-grid-line var(--grid-duration) ease-in-out var(--grid-delay) both;
+  }
+}
+@keyframes draw-grid-line {
+  0% { stroke-dashoffset: var(--grid-offset); opacity: 0; }
+  0.1% { opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 1; }
+}
+</style></svg>

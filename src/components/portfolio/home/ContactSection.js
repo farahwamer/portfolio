@@ -13,8 +13,8 @@ export default function ContactSection() {
       aria-labelledby="contact-heading"
     >
       <div className="footer-grid" aria-hidden="true">
-        <Artwork name="gridVertical" />
-        <Artwork name="gridHorizontal" />
+        <DrawnArtwork name="gridVertical" drawOnVisible />
+        <DrawnArtwork name="gridHorizontal" drawOnVisible />
         <Artwork name="footerFade" />
       </div>
       <Reveal className="portfolio-container contact-content">
